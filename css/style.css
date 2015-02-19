@@ -176,6 +176,9 @@ header .logo {
   display: inline-block;
   position: relative;
 }
+header .logo img {
+  width: 180px;
+}
 header .logo .dark-logo-img {
   display: none;
   position: absolute;
