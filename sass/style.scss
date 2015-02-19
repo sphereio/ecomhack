@@ -260,6 +260,10 @@ header{
 		display: inline-block;
 		position: relative;
 
+		img {
+			width: 180px;
+		}
+
 		.dark-logo-img{
 			display: none;
 			position: absolute;
