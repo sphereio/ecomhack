@@ -412,10 +412,19 @@ header .logo:before {
 #hackathon .main-text, #prices .main-text {
   max-width: 590px;
 }
-#hackathon ul, #hackathon li, #prices ul, #prices li {
-  list-style: initial;
+#hackathon ul, #prices ul {
   padding: 50px 0;
-  text-align: left;
+}
+#hackathon ul.sub-list, #prices ul.sub-list {
+  padding: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+#hackathon ul.sub-list li, #prices ul.sub-list li {
+  padding: 0;
+}
+#hackathon li, #prices li {
+  padding-bottom: 15px;
 }
 #hackathon .feature-item, #prices .feature-item {
   margin-top: 80px;
