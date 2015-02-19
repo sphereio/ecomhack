@@ -21,19 +21,21 @@ header .logo:before {
 	background-color: #f9c36e;
 }
 
-#features .feature-item:hover > a {
+#hackathon .feature-item:hover > a,
+#prices .feature-item:hover > a {
   color: #eeaf4b;
 }
 
-#features .owl-pagination .active span {
+#hackathon .owl-pagination .active span,
+#prices .owl-pagination .active span {
 	background-color: #eeaf4b;
 }
 
-#team-section {
+#jury {
   background: #eeaf4b;
 }
 
-#team-section .team-item .hovered i {
+#jury .team-item .hovered i {
   background: #eeaf4b;
 }
 
@@ -82,8 +84,8 @@ header .logo:before {
 #map-location .info-window span {
 	color: #eeaf4b;
 }
-  
-  
+
+
 
 
 
