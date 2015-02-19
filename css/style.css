@@ -305,9 +305,6 @@ header .logo:before {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-#main-section .main-intro {
-  text-align: center;
-}
 #main-section .main-intro .curved-text {
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -325,11 +322,42 @@ header .logo:before {
 #main-section .main-intro h1 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 92px;
+  font-size: 72px;
+  font-weight: 400;
+  margin-top: 25px;
+  font-size: 50px !important;
+}
+#main-section .main-intro .big-text {
+  font-size: 80px;
+  color: #26b6cb;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-top: 40px;
+  font-size: 98px;
+  line-height: 90px;
+  margin-top: 5px;
+  padding: 10px 0;
   text-transform: uppercase;
-  letter-spacing: 7px;
+}
+#main-section .main-intro .small-text {
+  font-size: 18px !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-right: 60px;
+  display: inline-block;
+}
+#main-section .main-intro .small-text i {
+  padding-right: 10px;
+}
+#main-section .main-intro .small-text .highlight {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+#main-section .main-intro .description {
+  padding-top: 70px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
 }
 #main-section .main-intro .main-button {
   color: #fff;
