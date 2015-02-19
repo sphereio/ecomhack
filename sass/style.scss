@@ -504,7 +504,7 @@ header{
 /*		    features section  	  */
 /* ============================== */
 
-#features{
+#hackathon, #prices{
 	background: url("../img/feature-bg.png") no-repeat fixed center bottom;
     background-size: cover;
 	padding: 80px 0;
@@ -636,7 +636,7 @@ header{
 /*		    team section  	  */
 /* ============================== */
 
-#team-section{
+#jury{
 	@include gradient();
 	text-align: center;
 	padding: 70px 0;
