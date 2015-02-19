@@ -1,0 +1,112 @@
+.section-title {
+	color: #ed7161;
+}
+
+header .logo:before {
+	background-color: #ed7161;
+}
+
+.sticky-navbar .nav > li > a:hover:before {
+	background-color: #ed7161 !important;
+}
+
+.sticky-navbar .nav li.current a:before {
+	background-color: #ed7161 !important;
+}
+
+#main-section .main-intro .main-button {
+  	background: #fe7955;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: linear-gradient(135deg,  #fe7955 0%,#f05c6a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
+}
+#main-section .main-intro .main-button:hover {
+	background-color: #fe7955;
+	background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
+}
+
+#features .feature-item:hover > a {
+  	color: #ed7161;
+}
+
+#features .owl-pagination .active span {
+	background-color: #ed7161;
+}
+
+#team-section {
+  	background: #fe7955;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: linear-gradient(135deg,  #fe7955 0%,#f05c6a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
+}
+
+#team-section .team-item .hovered i {
+ 	background: #ed7161;
+}
+
+
+#timeline .timeline-wrapper .timeline-date p {
+	color: #ed7161;
+}
+
+#testimonials .testi-slide span a {
+	color: #ed7161;
+}
+
+#pricing .table-item h3 {
+	color: #ed7161;
+}
+
+#pricing .table-item .price-box sup {
+	color: #ed7161;
+}
+
+#faqs .panel-heading .panel-title a .icon-toggle:after {
+	color: #ed7161;
+}
+
+#partners .button:hover {
+	background-color: #ed7161;
+	border-color: #ed7161;
+}
+
+#form-section .button {
+  	background: #fe7955;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: linear-gradient(135deg,  #fe7955 0%,#f05c6a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
+}
+
+#form-section .button:hover {
+  	background: #fe7955;
+  	background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
+}
+
+#cta-section .title {
+	color: #ed7161;
+}
+
+#socials .col-item .socials li i:hover {
+	background-color: #ed7161;
+}
+
+#map-location .info-window span {
+	color: #ed7161;
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
