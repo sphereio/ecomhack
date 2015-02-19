@@ -402,6 +402,12 @@ header .logo:before {
 #about h2 {
   margin-top: 17px;
 }
+#about hr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#about .main-text {
+  max-width: 590px;
+}
 #about .left-wrapper {
   padding-top: 85px;
 }

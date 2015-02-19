@@ -512,6 +512,14 @@ header{
 		margin-top: 17px;
 	}
 
+  hr{
+    background-color: transparent_color(#000, .1);
+  }
+
+  .main-text{
+    max-width: 590px;
+  }
+
 	.left-wrapper{
 
 		padding-top: 85px;
