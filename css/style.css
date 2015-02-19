@@ -360,20 +360,20 @@ header .logo:before {
 /* ============================== */
 /*		    about section  	      */
 /* ============================== */
-#about-section {
-  padding: 105px 0 95px 0;
+#about {
+  padding: 55px 0 95px 0;
   text-align: center;
 }
-#about-section .row {
+#about .row {
   margin-top: 70px;
 }
-#about-section h2 {
+#about h2 {
   margin-top: 17px;
 }
-#about-section .left-wrapper {
+#about .left-wrapper {
   padding-top: 85px;
 }
-#about-section .left-wrapper .large-text {
+#about .left-wrapper .large-text {
   color: #a8b4c1;
   font-family: "Merriweather", sans-serif;
   font-size: 24px;
@@ -381,13 +381,13 @@ header .logo:before {
   padding-right: 30px;
   line-height: 36px;
 }
-#about-section .right-wrapper {
+#about .right-wrapper {
   padding-left: 50px;
 }
-#about-section .right-wrapper h3 {
+#about .right-wrapper h3 {
   margin-top: 10px;
 }
-#about-section .right-wrapper .medium-text {
+#about .right-wrapper .medium-text {
   color: #818c98;
   font-size: 18px;
   line-height: 28px;
@@ -1167,12 +1167,12 @@ header .logo:before {
 /* ============================== */
 /*		     faqs section         */
 /* ============================== */
-#partners {
+#apis {
   background: #f4f6f8;
   padding: 75px 0;
   text-align: center;
 }
-#partners hr {
+#apis hr {
   width: 80%;
   border: none;
   height: 1px;
@@ -1184,12 +1184,12 @@ header .logo:before {
   background: linear-gradient(to right, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );
 }
-#partners .first-row {
+#apis .first-row {
   margin-top: 60px;
   display: inline-block;
   margin-bottom: -8px;
 }
-#partners .item {
+#apis .item {
   height: 185px;
   width: 280px;
   display: table;
@@ -1202,16 +1202,16 @@ header .logo:before {
   -o-border-image: linear-gradient(to bottom, #f0f1f2, #e0e1e2) 1 100%;
      border-image: linear-gradient(to bottom, #f0f1f2, #e0e1e2) 1 100%;
 }
-#partners .item:last-child {
+#apis .item:last-child {
   border: none;
 }
-#partners .item a {
+#apis .item a {
   display: table-cell;
   vertical-align: middle;
   -webkit-transition: .5s -webkit-filter linear;
           transition: .5s -webkit-filter linear;
 }
-#partners .item a img {
+#apis .item a img {
   width: auto !important;
   vertical-align: middle;
   -webkit-filter: url("filters.svg#grayscale");
@@ -1224,24 +1224,24 @@ header .logo:before {
   -webkit-transition: .5s -webkit-filter linear;
           transition: .5s -webkit-filter linear;
 }
-#partners .item a:hover img {
+#apis .item a:hover img {
   filter: none;
   -webkit-filter: grayscale(0);
 }
-#partners .second-row {
+#apis .second-row {
   display: inline-block;
 }
-#partners .second-row .item {
+#apis .second-row .item {
   border-color: #f0f1f2;
   -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e0e1e2), to(#f0f1f2)) 1 100%;
   -webkit-border-image: -webkit-linear-gradient(#e0e1e2, #f0f1f2) 1 100%;
   -o-border-image: linear-gradient(to bottom, #e0e1e2, #f0f1f2) 1 100%;
      border-image: linear-gradient(to bottom, #e0e1e2, #f0f1f2) 1 100%;
 }
-#partners .second-row .item:last-child {
+#apis .second-row .item:last-child {
   border: none;
 }
-#partners .button {
+#apis .button {
   font-family: "Montserrat", sans-serif;
   display: block;
   height: 50px;
@@ -1262,7 +1262,7 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#partners .button:hover {
+#apis .button:hover {
   background-color: #f46464;
   color: #fff;
   border-color: #f46464;
