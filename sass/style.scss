@@ -514,6 +514,21 @@ header{
 	padding: 80px 0;
 	text-align: center;
 
+  hr{
+    background-color: transparent_color(#000, .1);
+  }
+
+  .main-text{
+    //color: transparent_color(#fff, .5);
+    max-width: 590px;
+  }
+
+  ul, li {
+    list-style: initial;
+    padding: 50px 0;
+    text-align: left;
+  }
+
 	.feature-item{
 		margin-top: 80px;
 

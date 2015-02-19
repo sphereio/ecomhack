@@ -406,6 +406,17 @@ header .logo:before {
   padding: 80px 0;
   text-align: center;
 }
+#hackathon hr, #prices hr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#hackathon .main-text, #prices .main-text {
+  max-width: 590px;
+}
+#hackathon ul, #hackathon li, #prices ul, #prices li {
+  list-style: initial;
+  padding: 50px 0;
+  text-align: left;
+}
 #hackathon .feature-item, #prices .feature-item {
   margin-top: 80px;
 }
