@@ -249,6 +249,7 @@ header .logo:before {
   -webkit-transition: all .6s;
           transition: all .6s;
   width: 90px;
+  text-align: left;
   z-index: 1;
 }
 .main-navigation-header .main-navigation li a:before {
@@ -258,7 +259,7 @@ header .logo:before {
   top: auto;
   right: auto;
   bottom: 0;
-  left: 30px;
+  left: 15px;
   height: 0;
   width: 30px;
   -webkit-transition: height .5s;
@@ -400,36 +401,36 @@ header .logo:before {
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
-#hackathon, #prices {
+#event, #prices {
   background: url("../img/feature-bg.png") no-repeat fixed center bottom;
   background-size: cover;
   padding: 80px 0;
   text-align: center;
 }
-#hackathon hr, #prices hr {
+#event hr, #prices hr {
   background-color: rgba(0, 0, 0, 0.1);
 }
-#hackathon .main-text, #prices .main-text {
+#event .main-text, #prices .main-text {
   max-width: 590px;
 }
-#hackathon ul, #prices ul {
+#event ul, #prices ul {
   padding: 50px 0;
 }
-#hackathon ul.sub-list, #prices ul.sub-list {
+#event ul.sub-list, #prices ul.sub-list {
   padding: 0;
   font-size: 14px;
   opacity: 0.8;
 }
-#hackathon ul.sub-list li, #prices ul.sub-list li {
+#event ul.sub-list li, #prices ul.sub-list li {
   padding: 0;
 }
-#hackathon li, #prices li {
+#event li, #prices li {
   padding-bottom: 15px;
 }
-#hackathon .feature-item, #prices .feature-item {
+#event .feature-item, #prices .feature-item {
   margin-top: 80px;
 }
-#hackathon .feature-item i, #prices .feature-item i {
+#event .feature-item i, #prices .feature-item i {
   color: #3b475f;
   background-color: #fff;
   font-size: 36px;
@@ -445,34 +446,34 @@ header .logo:before {
   -webkit-transition: all .7s;
           transition: all .7s;
 }
-#hackathon .feature-item h3, #prices .feature-item h3 {
+#event .feature-item h3, #prices .feature-item h3 {
   margin-top: 23px;
 }
-#hackathon .feature-item p, #prices .feature-item p {
+#event .feature-item p, #prices .feature-item p {
   margin-top: 18px;
   padding: 0 20px;
   line-height: 24px;
 }
-#hackathon .feature-item a, #prices .feature-item a {
+#event .feature-item a, #prices .feature-item a {
   color: #3b475f;
   text-transform: capitalize;
   -webkit-transition: all .7s;
           transition: all .7s;
 }
-#hackathon .feature-item a:hover, #prices .feature-item a:hover {
+#event .feature-item a:hover, #prices .feature-item a:hover {
   text-decoration: none;
 }
-#hackathon .feature-item:hover > i, #prices .feature-item:hover > i {
+#event .feature-item:hover > i, #prices .feature-item:hover > i {
   background-color: #3b475f;
   color: #e1e2e9;
 }
-#hackathon .feature-item:hover > a, #prices .feature-item:hover > a {
+#event .feature-item:hover > a, #prices .feature-item:hover > a {
   color: #f46464;
 }
-#hackathon .owl-controls, #prices .owl-controls {
+#event .owl-controls, #prices .owl-controls {
   margin-top: 75px;
 }
-#hackathon .owl-pagination .owl-page span, #prices .owl-pagination .owl-page span {
+#event .owl-pagination .owl-page span, #prices .owl-pagination .owl-page span {
   background-color: transparent;
   width: 16px;
   height: 16px;
@@ -484,7 +485,7 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#hackathon .owl-pagination .active span, #prices .owl-pagination .active span {
+#event .owl-pagination .active span, #prices .owl-pagination .active span {
   background-color: #f46464;
   width: 20px;
   height: 20px;
