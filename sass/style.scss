@@ -870,7 +870,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /*		    z-layout2 section  	  */
 /* ============================== */
 
-#z-layout2{
+#venue{
 
 	background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
     background-size: cover;
@@ -1830,7 +1830,7 @@ footer{
 	}
 	.small-text{font-size: 18px !important;}
 
-	#z-layout1, #z-layout2{
+	#z-layout1, #venue{
 		h2{
 			font-size: 38px;
 		}
@@ -1866,7 +1866,7 @@ footer{
 		font-size: 28px !important;
 	}
 
-	#z-layout1, #z-layout2, #timeline, #faqs, #testimonials{
+	#z-layout1, #venue, #timeline, #faqs, #testimonials{
 		padding: 90px 0;
 	}
 
@@ -1900,7 +1900,7 @@ footer{
 		}
 	}
 
-	#z-layout2 ul{
+	#venue ul{
 		padding-left: 0;
 		margin-bottom: 60px;
 	}
@@ -2030,7 +2030,7 @@ footer{
 
 	h2{font-size: 24px !important;}
 
-	#z-layout1, #z-layout2{
+	#z-layout1, #venue{
 		h2{
 			line-height: 48px;
 		}

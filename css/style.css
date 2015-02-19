@@ -739,13 +739,13 @@ header .logo:before {
 /* ============================== */
 /*		    z-layout2 section  	  */
 /* ============================== */
-#z-layout2 {
+#venue {
   background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
   background-size: cover;
   padding: 135px 0;
   position: relative;
 }
-#z-layout2 .overlay {
+#venue .overlay {
   background-color: rgba(25, 33, 50, 0.92);
   position: absolute;
   top: 0;
@@ -755,22 +755,22 @@ header .logo:before {
   width: 100%;
   height: 100%;
 }
-#z-layout2 h2 {
+#venue h2 {
   color: #fff;
   font-size: 48px;
   line-height: 58px;
   padding-right: 50px;
 }
-#z-layout2 hr {
+#venue hr {
   background-color: #fff;
   text-align: left;
   margin: 25px 0;
 }
-#z-layout2 p {
+#venue p {
   color: rgba(129, 140, 152, 0.7);
   font-size: 18px;
 }
-#z-layout2 .button {
+#venue .button {
   font-family: "Montserrat", sans-serif;
   display: block;
   height: 40px;
@@ -789,44 +789,44 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#z-layout2 .button:hover {
+#venue .button:hover {
   background-color: #fff;
   color: #192132;
 }
-#z-layout2 #gallery-slider {
+#venue #gallery-slider {
   padding-left: 0;
   position: relative;
 }
-#z-layout2 #gallery-slider img {
+#venue #gallery-slider img {
   display: block;
   width: 100%;
   height: auto;
 }
-#z-layout2 .owl-wrapper-outer {
+#venue .owl-wrapper-outer {
   border: 20px solid rgba(0, 0, 0, 0.1);
 }
-#z-layout2 .owl-controls {
+#venue .owl-controls {
   position: absolute;
   left: 50%;
   margin-left: -46px;
   bottom: 40px;
 }
-#z-layout2 .owl-controls .owl-buttons div {
+#venue .owl-controls .owl-buttons div {
   background-color: rgba(25, 33, 50, 0.7);
   padding: 0;
   margin: 0;
   opacity: 1;
 }
-#z-layout2 .owl-controls .owl-buttons div:hover {
+#venue .owl-controls .owl-buttons div:hover {
   background-color: #192132;
 }
-#z-layout2 .owl-controls .owl-buttons div i {
+#venue .owl-controls .owl-buttons div i {
   font-size: 24px;
   line-height: 41px;
   width: 41px;
   height: 41px;
 }
-#z-layout2 .owl-controls .owl-prev {
+#venue .owl-controls .owl-prev {
   margin-right: 10px !important;
 }
 
@@ -1631,7 +1631,7 @@ footer ul a {
     font-size: 18px !important;
   }
 
-  #z-layout1 h2, #z-layout2 h2 {
+  #z-layout1 h2, #venue h2 {
     font-size: 38px;
   }
 
@@ -1657,7 +1657,7 @@ footer ul a {
     font-size: 28px !important;
   }
 
-  #z-layout1, #z-layout2, #timeline, #faqs, #testimonials {
+  #z-layout1, #venue, #timeline, #faqs, #testimonials {
     padding: 90px 0;
   }
 
@@ -1684,7 +1684,7 @@ footer ul a {
     margin-bottom: 60px;
   }
 
-  #z-layout2 ul {
+  #venue ul {
     padding-left: 0;
     margin-bottom: 60px;
   }
@@ -1828,7 +1828,7 @@ footer ul a {
     font-size: 24px !important;
   }
 
-  #z-layout1 h2, #z-layout2 h2 {
+  #z-layout1 h2, #venue h2 {
     line-height: 48px;
   }
 
