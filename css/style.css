@@ -48,7 +48,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
   font-size: 16px;
-  line-height: 28px;
+  /*line-height: 28px;*/
+  text-align: justify;
 }
 
 h2 {
@@ -66,8 +67,9 @@ h3 {
 }
 
 p {
-  color: #818c98;
+  color: #B1B6BA;
   line-height: 28px;
+  font-weight: 400;
 }
 
 .section-title {
@@ -91,7 +93,7 @@ hr {
 }
 
 ul, li {
-  list-style: none;
+  list-style-position: inside;
 }
 
 a:hover {
@@ -101,6 +103,11 @@ a:hover {
 a:focus, a:active {
   outline: none;
 }
+
+.estimote-logo {
+  height: 120px;
+}
+
 
 /* ============================== */
 /*		    header  			  */
@@ -244,7 +251,7 @@ header .logo:before {
 }
 .main-navigation-header .main-navigation li a {
   font-family: "Montserrat", sans-serif;
-  color: rgba(255, 255, 255, 0.3);
+  color: #818C98;
   position: relative;
   -webkit-transition: all .6s;
           transition: all .6s;
@@ -267,7 +274,7 @@ header .logo:before {
   z-index: 20;
 }
 .main-navigation-header .main-navigation li a:hover {
-  color: #fff;
+  color: #818C98;
 }
 .main-navigation-header .main-navigation li a:hover:before {
   height: 3px;
@@ -305,6 +312,7 @@ header .logo:before {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 #main-section .main-intro .curved-text {
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -357,7 +365,7 @@ header .logo:before {
   padding-top: 70px;
   font-size: 14px;
   font-style: italic;
-  line-height: 18px;
+  line-height: 22px;
 }
 #main-section .main-intro .main-button {
   color: #fff;
@@ -433,12 +441,24 @@ header .logo:before {
 }
 
 /* ============================== */
+/*        Schedule section        */
+/* ============================== */
+
+#schedule {
+  text-align: center;
+}
+
+#schedule > p {
+  color: #818C98;
+}
+
+/* ============================== */
 /*		    features section  	  */
 /* ============================== */
 #event, #prices {
   background: url("../img/feature-bg.png") no-repeat fixed center bottom;
   background-size: cover;
-  padding: 80px 0;
+  padding: 5px 0;
   text-align: center;
 }
 #event hr, #prices hr {
@@ -447,9 +467,7 @@ header .logo:before {
 #event .main-text, #prices .main-text {
   max-width: 590px;
 }
-#event ul, #prices ul {
-  padding: 50px 0;
-}
+
 #event ul.sub-list, #prices ul.sub-list {
   padding: 0;
   font-size: 14px;
@@ -611,7 +629,6 @@ header .logo:before {
 }
 #jury .team-item .team-thumbnail {
   width: 260px;
-  padding: 10px;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.04)));
   background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.04) 100%);
@@ -1227,7 +1244,6 @@ header .logo:before {
 /* ============================== */
 #apis {
   background: #f4f6f8;
-  padding: 75px 0;
   text-align: center;
 }
 #apis hr {
@@ -1590,9 +1606,11 @@ header .logo:before {
 footer {
   padding: 25px 0;
   font-size: 14px;
+  background-color: #EEAF4B;
 }
 footer .copyright {
   margin: 0;
+  color: #fff;
 }
 footer .copyright a {
   color: #3b475f;
@@ -1717,11 +1735,18 @@ footer ul a {
     padding-bottom: 20px;
     border: none;
   }
+
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  
+  #main-section .main-intro .big-text {
+    font-size: 70px;
+    line-height: 1.1em;
+  }
+
   #header-navigation {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #fff;
   }
 
   footer {
@@ -1806,6 +1831,12 @@ footer ul a {
   }
 }
 @media only screen and (max-width: 580px) {
+  
+  #main-section .main-intro .big-text {
+    font-size: 50px;
+    line-height: 1.1em;
+  }
+
   #timeline .nav-tabs li {
     width: 100%;
     margin: 0 0 10px;
@@ -1860,6 +1891,10 @@ footer ul a {
   #main-section .main-intro .medium-text {
     font-size: 24px;
   }
+  
+  .description {
+    display: none;
+  }
 
   h1 {
     font-size: 60px !important;
@@ -1883,3 +1918,28 @@ footer ul a {
   }
 }
 /* Custom, iPhone Retina */
+/* J changes */
+
+.concept-text {
+  text-align: left;
+}
+
+.concept-text > ul {
+  list-style-type: disc;
+}
+
+.middle p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#schedule {
+  text-align: left;
+}
+
+
+
+
