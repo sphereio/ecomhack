@@ -936,8 +936,6 @@ header .logo:before {
 }
 #timeline .timeline-wrapper .timeline-block {
   position: relative;
-  margin: 2em 0;
-  margin: 0 auto 50px;
   overflow: hidden;
 }
 #timeline .timeline-wrapper .timeline-date, #timeline .timeline-wrapper .timeline-info {
