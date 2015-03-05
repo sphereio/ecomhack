@@ -1927,6 +1927,10 @@ footer ul a {
   list-style-type: disc;
 }
 
+.concept-hr {
+  width: 200px;
+}
+
 .middle p {
   text-align: center;
 }
