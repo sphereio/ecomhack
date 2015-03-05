@@ -401,12 +401,10 @@ header .logo:before {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 55px 0 95px 0;
+  padding: 55px 0 55px 0;
   text-align: center;
 }
-#about .row {
-  margin-top: 70px;
-}
+
 #about h2 {
   margin-top: 17px;
 }
@@ -1918,6 +1916,7 @@ footer ul a {
   }
 }
 /* Custom, iPhone Retina */
+
 /* J changes */
 
 .concept-text {
@@ -1934,11 +1933,17 @@ footer ul a {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 #schedule {
   text-align: left;
 }
+
+.schedule h3 {
+  color: #EEAF4B;
+}
+
 
 
 
