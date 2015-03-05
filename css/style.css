@@ -595,9 +595,9 @@ header .logo:before {
 }
 
 /* ============================== */
-/*		    team section  	  */
+/*        team section      */
 /* ============================== */
-#jury {
+#team-section {
   background: #fe7955;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   background: -webkit-linear-gradient(315deg, #fe7955 0%, #f05c6a 100%);
@@ -606,27 +606,28 @@ header .logo:before {
   text-align: center;
   padding: 70px 0;
 }
-#jury .section-title {
+#team-section .section-title {
   color: rgba(0, 0, 0, 0.35);
   font-family: "Merriweather", sans-serif;
   font-style: italic;
 }
-#jury h2 {
+#team-section h2 {
   color: #fff;
   font-weight: 400;
 }
-#jury hr {
+#team-section hr {
   background-color: rgba(0, 0, 0, 0.1);
 }
-#jury .main-text {
+#team-section .main-text {
   color: rgba(255, 255, 255, 0.5);
   max-width: 590px;
 }
-#jury .team-item {
+#team-section .team-item {
   margin-top: 50px;
 }
-#jury .team-item .team-thumbnail {
+#team-section .team-item .team-thumbnail {
   width: 260px;
+  padding: 10px;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.04)));
   background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.04) 100%);
@@ -639,7 +640,7 @@ header .logo:before {
   position: relative;
   overflow: hidden;
 }
-#jury .team-item .hovered {
+#team-section .team-item .hovered {
   background-color: transparent;
   width: 240px;
   height: 240px;
@@ -653,7 +654,7 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#jury .team-item .hovered i {
+#team-section .team-item .hovered i {
   color: #fff;
   font-size: 24px;
   width: 48px;
@@ -671,21 +672,21 @@ header .logo:before {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-#jury .team-item .hovered .first {
+#team-section .team-item .hovered .first {
   top: -48px;
   left: 61px;
   -webkit-transform: rotate(365deg);
       -ms-transform: rotate(365deg);
           transform: rotate(365deg);
 }
-#jury .team-item .hovered .second {
+#team-section .team-item .hovered .second {
   bottom: -48px;
   right: 62px;
   -webkit-transform: rotate(-365deg);
       -ms-transform: rotate(-365deg);
           transform: rotate(-365deg);
 }
-#jury .team-item h3 {
+#team-section .team-item h3 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -695,40 +696,40 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#jury .team-item p {
+#team-section .team-item p {
   color: rgba(0, 0, 0, 0.5);
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#jury .team-item .wrapper {
+#team-section .team-item .wrapper {
   display: inline-block;
 }
-#jury .team-item .wrapper:hover .hovered {
+#team-section .team-item .wrapper:hover .hovered {
   background-color: rgba(25, 33, 50, 0.9);
   display: block;
 }
-#jury .team-item .wrapper:hover .first {
+#team-section .team-item .wrapper:hover .first {
   top: 96px;
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
           transform: rotate(0deg);
 }
-#jury .team-item .wrapper:hover .second {
+#team-section .team-item .wrapper:hover .second {
   bottom: 96px;
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
           transform: rotate(0deg);
 }
-#jury .team-item .wrapper:hover h3 {
+#team-section .team-item .wrapper:hover h3 {
   color: rgba(51, 51, 51, 0.4);
 }
-#jury .team-item .wrapper:hover p {
+#team-section .team-item .wrapper:hover p {
   color: #fff;
 }
-#jury .owl-pagination {
+#team-section .owl-pagination {
   margin-top: 40px;
 }
-#jury .owl-pagination .owl-page span {
+#team-section .owl-pagination .owl-page span {
   background-color: transparent;
   width: 16px;
   height: 16px;
@@ -740,7 +741,7 @@ header .logo:before {
   -webkit-transition: all .5s;
           transition: all .5s;
 }
-#jury .owl-pagination .active span {
+#team-section .owl-pagination .active span {
   background-color: #fff;
   width: 20px;
   height: 20px;
