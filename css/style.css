@@ -1940,15 +1940,11 @@ ul {
   padding-left: 0;
 }
 
-#schedule {
-  text-align: left;
-}
-
 #apis {
   padding-bottom: 70px;
 }
 
-.schedule h3 {
+#venue p {
   color: #EEAF4B;
 }
 
