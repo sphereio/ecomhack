@@ -1244,16 +1244,16 @@ header .logo:before {
   text-align: center;
 }
 #apis hr {
-  width: 80%;
+/*  width: 80%;
   border: none;
   height: 1px;
   margin: 0 auto;
-  text-align: center;
-  background: #f0f1f2;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f0f1f2), color-stop(50%, #e0e1e2), color-stop(100%, #f0f1f2));
+  text-align: center;*/
+  background: #fff;
+/*  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f0f1f2), color-stop(50%, #e0e1e2), color-stop(100%, #f0f1f2));
   background: -webkit-linear-gradient(left, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
   background: linear-gradient(to right, #f0f1f2 0%, #e0e1e2 50%, #f0f1f2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );*/
 }
 #apis .first-row {
   margin-top: 60px;
@@ -1948,7 +1948,7 @@ ul {
 }
 
 .apis-title {
-  padding: 55px 0;
+  padding: 55px 0 0;
 }
 
 
