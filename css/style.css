@@ -67,7 +67,7 @@ h3 {
 }
 
 p {
-  color: #B1B6BA;
+  color: #333333;
   line-height: 28px;
   font-weight: 400;
 }
@@ -328,7 +328,7 @@ header .logo:before {
   display: inline-block;
 }
 #main-section .main-intro h1 {
-  color: #fff;
+  color: #FFF;
   font-family: "Montserrat", sans-serif;
   font-size: 72px;
   font-weight: 400;
@@ -337,7 +337,7 @@ header .logo:before {
 }
 #main-section .main-intro .big-text {
   font-size: 80px;
-  color: #26b6cb;
+  color: #ff9900;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 98px;
@@ -359,7 +359,7 @@ header .logo:before {
 }
 #main-section .main-intro .small-text .highlight {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #ff6666;
 }
 #main-section .main-intro .description {
   padding-top: 70px;
