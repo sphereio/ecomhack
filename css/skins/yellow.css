@@ -15,10 +15,10 @@ header .logo:before {
 }
 
 #main-section .main-intro .main-button {
-  background: #eeaf4b;
+  background: #FF6666;
 }
 #main-section .main-intro .main-button:hover {
-	background-color: #f9c36e;
+	background-color: #FF9900;
 }
 
 #event .feature-item:hover > a,

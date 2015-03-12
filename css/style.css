@@ -328,7 +328,7 @@ header .logo:before {
   display: inline-block;
 }
 #main-section .main-intro h1 {
-  color: #FFF;
+  color: #1e3f50;
   font-family: "Montserrat", sans-serif;
   font-size: 72px;
   font-weight: 400;
@@ -337,7 +337,7 @@ header .logo:before {
 }
 #main-section .main-intro .big-text {
   font-size: 80px;
-  color: #ff9900;
+  color: #23b99f;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 98px;
@@ -349,6 +349,7 @@ header .logo:before {
 #main-section .main-intro .small-text {
   font-size: 18px !important;
   font-size: 20px;
+  color: #3b475f;
   text-transform: uppercase;
   margin-top: 30px;
   margin-right: 60px;
@@ -362,10 +363,14 @@ header .logo:before {
   color: #ff6666;
 }
 #main-section .main-intro .description {
-  padding-top: 70px;
+  border-radius: 4px;
+  color: #3b475f;
+  margin-top: 70px;
+  padding: 5px 10px;
   font-size: 14px;
   font-style: italic;
   line-height: 22px;
+  background-color: rgba(255,255,255,.8);
 }
 #main-section .main-intro .main-button {
   color: #fff;
@@ -377,24 +382,16 @@ header .logo:before {
   text-align: center;
   text-decoration: none;
   font-weight: 700;
-  background: #fe7955;
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-  background: -webkit-linear-gradient(315deg, #fe7955 0%, #f05c6a 100%);
-  background: linear-gradient(135deg, #fe7955 0%, #f05c6a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
+  background: #FF6666;
   margin: 55px auto 0;
   border-radius: 3px;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-transition: background-color 0.4s ease-out 0s;
           transition: background-color 0.4s ease-out 0s;
 }
 #main-section .main-intro .main-button:hover {
-  background: -webkit-linear-gradient(315deg, #f05c6a 0%, #fe7955 100%);
-  background: linear-gradient(135deg, #f05c6a 0%, #fe7955 100%);
-  background-color: #f46464;
+  background: ##FF9900;
 }
 
 /* ============================== */
