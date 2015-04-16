@@ -1540,6 +1540,15 @@ header .logo:before {
 }
 
 /* ============================== */
+/*         Partner section        */
+/* ============================== */
+
+.oreilly-logo {
+  height: 70px;
+  margin: 1.2em auto;
+}
+
+/* ============================== */
 /*		     Maps section         */
 /* ============================== */
 #map-location {
