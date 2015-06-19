@@ -1747,7 +1747,7 @@ footer ul a {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  
+
   #main-section .main-intro .big-text {
     font-size: 70px;
     line-height: 1.1em;
@@ -1839,7 +1839,7 @@ footer ul a {
   }
 }
 @media only screen and (max-width: 580px) {
-  
+
   #main-section .main-intro .big-text {
     font-size: 50px;
     line-height: 1.1em;
@@ -1899,7 +1899,7 @@ footer ul a {
   #main-section .main-intro .medium-text {
     font-size: 24px;
   }
-  
+
   .description {
     display: none;
   }
@@ -1925,9 +1925,6 @@ footer ul a {
     font-size: 50px !important;
   }
 }
-/* Custom, iPhone Retina */
-
-/* J changes */
 
 .concept-text {
   text-align: left;
@@ -1961,8 +1958,3 @@ ul {
 .apis-title {
   padding: 55px 0 0;
 }
-
-
-
-
-
