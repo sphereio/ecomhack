@@ -384,7 +384,7 @@ header{
 /** hackevents */
 
 .btn-ecomhack{
-	background-color: rgb(237,31,36);
+	background-color: rgb(242, 28, 66);
 	color: #fff;
 }
 
@@ -394,7 +394,7 @@ header{
 }
 
 .hackevents{
-	background-color: #3b475f;
+	background-color: rgb(25, 16, 43);
 	width: 100%;
 	padding: 25px;
 }
@@ -412,6 +412,47 @@ header{
 	width:100%;
 }
 
+
+#impressions {
+	width: 100%;
+	background-color: rgb(35,16,43);
+	color: #fff;
+
+	&	blockquote {
+	  background: rgb(35,16,43);
+	  border-left: 5px solid rgb(242,28,66);
+		color: #fff;
+	  margin: 1.5em 10px;
+	  padding: 0.5em 10px;
+	}
+
+	& blockquote p {
+	  display: inline;
+		color: #fff;
+	}
+
+	& blockquote cite{
+		color: #fff;
+	}
+
+	& blockquote cite a {
+		color: rgb(242,28,66);
+	}
+
+	& blockquote footer {
+		padding: 0;
+	}
+
+	& h2{
+		color: rgb(255, 255, 255);
+	}
+
+	& hr {
+		background-color: rgb(242, 28, 66);
+		margin: 25px 0;
+	}
+}
+
 /* ============================== */
 /*		    main section  	      */
 /* ============================== */
@@ -426,7 +467,7 @@ header{
     padding: 80px 0 135px 0;
 
     .overlay{
-    	background-color: transparent_color(#192132, .92);
+    	background-color: rgb(35, 16, 43);
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
@@ -480,7 +521,7 @@ header{
 
       .big-text {
         font-size: 80px;
-        color: #26b6cb;
+        color: rgb(242,28,66);
         font-family: $montserrat-font;
         font-weight: 700;
         font-size: 98px;
@@ -538,22 +579,24 @@ header{
 
 #about{
 	padding: 55px 0 95px 0;
-	text-align: center;
-
+	background: rgb(35,16,43);
 	.row{
 		margin-top: 70px;
 	}
 
 	h2{
+		color: #fff;
 		margin-top: 17px;
 	}
 
   hr{
-    background-color: transparent_color(#000, .1);
+    background-color: rgb(242,28,66);
+		margin: 25px 0;
   }
 
   .main-text{
     max-width: 590px;
+		color: #fff;
   }
 
 	.left-wrapper{
@@ -914,7 +957,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	position: relative;
 
 	.overlay{
-    	background-color: transparent_color(#192132, .92);
+    	background-color: rgb(35, 16, 43);
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
@@ -928,7 +971,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	}
 
 	hr{
-		background-color: #fff;
+		background-color: rgb(242, 28, 66);
 		text-align: left;
 		margin: 25px 0;
 	}
@@ -1004,12 +1047,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /* ============================== */
 /*		  manifesto section 			  	  */
 /* ============================== */
+#manifesto {
 
-section#manifesto ul li {
-	padding: 25px;
-	font-size: 36px;
+		background-color: rgb(35,16,43);
+		padding-bottom: 50px; 
+
+	 & ul li {
+		padding: 15px;
+		color: #fff;
+	}
+
+	& h2{
+		padding-top: 75px;
+		color: #fff;
+	}
+
+	& hr {
+		margin: 25px 0;
+		background-color: rgb(242, 28, 66);
+	}
+
+
 }
-
 
 /* ============================== */
 /*		  rules section 			  	  */
@@ -2138,5 +2197,66 @@ footer{
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
+}
+/** Mobile styles **/
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	#manifesto {
+		font-size: 110%;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+	#manifesto {
+			font-size: 110%;
+		}
+}
+
+/* Portrait */
+@media only screen   and (min-device-width: 375px)   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	#manifesto {
+			font-size: 110%;
+		}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		#manifesto {
+				font-size: 110%;
+			}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px)   and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) {
 
 }

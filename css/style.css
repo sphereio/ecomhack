@@ -220,7 +220,7 @@ header {
 
 /** hackevents */
 .btn-ecomhack {
-  background-color: #ed1f24;
+  background-color: #f21c42;
   color: #fff; }
 
 .email-input {
@@ -228,7 +228,7 @@ header {
   border: 1px solid #fff; }
 
 .hackevents {
-  background-color: #3b475f;
+  background-color: #19102b;
   width: 100%;
   padding: 25px; }
 
@@ -242,6 +242,31 @@ header {
 .eventRegButton {
   width: 100%; }
 
+#impressions {
+  width: 100%;
+  background-color: #23102b;
+  color: #fff; }
+  #impressions blockquote {
+    background: #23102b;
+    border-left: 5px solid #f21c42;
+    color: #fff;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px; }
+  #impressions blockquote p {
+    display: inline;
+    color: #fff; }
+  #impressions blockquote cite {
+    color: #fff; }
+  #impressions blockquote cite a {
+    color: #f21c42; }
+  #impressions blockquote footer {
+    padding: 0; }
+  #impressions h2 {
+    color: white; }
+  #impressions hr {
+    background-color: #f21c42;
+    margin: 25px 0; }
+
 /* ============================== */
 /*		    main section  	      */
 /* ============================== */
@@ -254,7 +279,7 @@ header {
   position: relative;
   padding: 80px 0 135px 0; }
   #main-section .overlay {
-    background-color: rgba(25, 33, 50, 0.92);
+    background-color: #23102b;
     position: absolute;
     top: 0;
     right: auto;
@@ -292,7 +317,7 @@ header {
     font-size: 50px !important; }
   #main-section .main-intro .big-text {
     font-size: 80px;
-    color: #26b6cb;
+    color: #f21c42;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 98px;
@@ -347,15 +372,18 @@ header {
 /* ============================== */
 #about {
   padding: 55px 0 95px 0;
-  text-align: center; }
+  background: #23102b; }
   #about .row {
     margin-top: 70px; }
   #about h2 {
+    color: #fff;
     margin-top: 17px; }
   #about hr {
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: #f21c42;
+    margin: 25px 0; }
   #about .main-text {
-    max-width: 590px; }
+    max-width: 590px;
+    color: #fff; }
   #about .left-wrapper {
     padding-top: 85px; }
     #about .left-wrapper .large-text {
@@ -634,7 +662,7 @@ header {
   padding: 135px 0;
   position: relative; }
   #venue .overlay {
-    background-color: rgba(25, 33, 50, 0.92);
+    background-color: #23102b;
     position: absolute;
     top: 0;
     right: auto;
@@ -648,7 +676,7 @@ header {
     line-height: 58px;
     padding-right: 50px; }
   #venue hr {
-    background-color: #fff;
+    background-color: #f21c42;
     text-align: left;
     margin: 25px 0; }
   #venue p {
@@ -707,9 +735,18 @@ header {
 /* ============================== */
 /*		  manifesto section 			  	  */
 /* ============================== */
-section#manifesto ul li {
-  padding: 25px;
-  font-size: 36px; }
+#manifesto {
+  background-color: #23102b;
+  padding-bottom: 50px; }
+  #manifesto ul li {
+    padding: 15px;
+    color: #fff; }
+  #manifesto h2 {
+    padding-top: 75px;
+    color: #fff; }
+  #manifesto hr {
+    margin: 25px 0;
+    background-color: #f21c42; }
 
 /* ============================== */
 /*		  rules section 			  	  */
@@ -1595,5 +1632,30 @@ footer {
   h1 {
     font-size: 50px !important; } }
 /* Custom, iPhone Retina */
+/** Mobile styles **/
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #manifesto {
+    font-size: 110%; } }
+/* Landscape */
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #manifesto {
+    font-size: 110%; } }
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #manifesto {
+    font-size: 110%; } }
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #manifesto {
+    font-size: 110%; } }
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
 
 /*# sourceMappingURL=style.css.map */

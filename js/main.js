@@ -1,7 +1,7 @@
 // Hiding hamburger menu on click
 
 $('.nav a').on('click', function(){
-     $(".navbar-toggle").click() 
+     $(".navbar-toggle").click()
 });
 
 $(function(){
