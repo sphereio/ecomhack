@@ -148,6 +148,12 @@ $merriweather-font: 'Merriweather', sans-serif;
 /******************************************************************************************
 /*  1-General styles */
 /******************************************************************************************/
+
+*:focus {
+    outline: 0;
+}
+
+
 body{
 	background-color: #fff;
 	color: $text-color;
@@ -376,6 +382,16 @@ header{
 
 
 /** hackevents */
+
+.btn-ecomhack{
+	background-color: rgb(237,31,36);
+	color: #fff;
+}
+
+.email-input{
+	background-color: rgba(255,255,255,0.1);
+	border: 1px solid #fff;
+}
 
 .hackevents{
 	background-color: #3b475f;
