@@ -221,8 +221,7 @@ header {
 /** hackevents */
 .btn-ecomhack {
   background-color: #f21c42;
-  color: #fff;
-  margin: 0px 10px; }
+  color: #fff; }
 
 .email-input {
   background-color: rgba(255, 255, 255, 0.1);
@@ -298,7 +297,7 @@ header {
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   #main-section .main-intro {
-    margin-bottom: 50px; }
+    padding-bottom: 50px; }
     #main-section .main-intro .curved-text {
       color: #fff;
       font-family: "Montserrat", sans-serif;
@@ -1666,4 +1665,4 @@ footer {
 /* Portrait */
 /* Landscape */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stzle.css.map */

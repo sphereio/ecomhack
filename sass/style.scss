@@ -386,6 +386,7 @@ header{
 .btn-ecomhack{
 	background-color: rgb(242, 28, 66);
 	color: #fff;
+	margin: 0px 10px;
 }
 
 .email-input{
@@ -487,7 +488,7 @@ header{
     }
 
     .main-intro{
-	    // text-align: center;
+				margin-bottom: 50px;
 
 	    .curved-text{
 		    color: #fff;
@@ -508,11 +509,6 @@ header{
 	    h1{
 	    	color: #fff;
 		    font-family: $montserrat-font;
-		    // font-size: 92px;
-		    // font-weight: 700;
-		    // margin-top: 40px;
-		    // text-transform: uppercase;
-		    // letter-spacing: 7px;
         font-size: 72px;
         font-weight: 400;
         margin-top: 25px;
@@ -537,10 +533,12 @@ header{
         margin-top: 30px;
         margin-right: 60px;
         display: inline-block;
-        i {
+
+				i {
           padding-right: 10px;
         }
-        .highlight {
+
+				.highlight {
           font-family: $montserrat-font;
           color: #fff;
         }
@@ -558,11 +556,11 @@ header{
 		    @include button(200px, 50px);
 		    font-weight: 700;
 		    @include gradient();
-			margin: 55px auto 0;
-			@include radius(3px);
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			transition: background-color 0.4s ease-out 0s;
+				margin: 55px auto 0;
+				@include radius(3px);
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				transition: background-color 0.4s ease-out 0s;
 
 			&:hover{
 				background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
@@ -587,7 +585,7 @@ header{
 	}
 
 	& ul li{
-		color: #fff; 
+		color: #fff;
 	}
 
 
