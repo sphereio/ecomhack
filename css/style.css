@@ -269,10 +269,15 @@ header {
   #impressions blockquote footer {
     padding: 0; }
   #impressions h2 {
-    color: white; }
+    color: white;
+    text-align: center; }
   #impressions hr {
     background-color: #f21c42;
-    margin: 25px 0; }
+    margin: 25px auto;
+    border: none;
+    text-align: center;
+    width: 80px;
+    height: 4px; }
 
 /* ============================== */
 /*		    main section  	      */
@@ -757,10 +762,15 @@ header {
     color: #fff; }
   #manifesto h2 {
     padding-top: 75px;
-    color: #fff; }
+    color: #fff;
+    text-align: center; }
   #manifesto hr {
-    margin: 25px 0;
-    background-color: #f21c42; }
+    background-color: #f21c42;
+    margin: 25px auto;
+    border: none;
+    text-align: center;
+    width: 80px;
+    height: 4px; }
 
 /* ============================== */
 /*		  rules section 			  	  */
@@ -1679,6 +1689,20 @@ footer {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .hackbox {
     margin: 10px 0px 10px 0px; } }
-/* Landscape */
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .hackbox {
+    margin: 10px 0px 10px 0px; } }
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .hackbox {
+    margin: 10px 0px 10px 0px; } }
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .hackbox {
+    margin: 10px 0px 10px 0px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -453,11 +453,16 @@ header{
 
 	& h2{
 		color: rgb(255, 255, 255);
+		text-align: center;
 	}
 
 	& hr {
 		background-color: rgb(242, 28, 66);
-		margin: 25px 0;
+		margin: 25px auto;
+		border: none;
+		text-align: center;
+		width: 80px;
+		height: 4px;
 	}
 }
 
@@ -1076,11 +1081,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	& h2{
 		padding-top: 75px;
 		color: #fff;
+		text-align: center;
 	}
 
 	& hr {
-		margin: 25px 0;
 		background-color: rgb(242, 28, 66);
+		margin: 25px auto;
+		border: none;
+		text-align: center;
+		width: 80px;
+		height: 4px;
 	}
 
 
@@ -2282,7 +2292,43 @@ footer{
 	}
 }
 
-/* Landscape */
-@media only screen and (min-device-width: 414px)   and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) {
 
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px,
+		}
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px,
+		}
+}
+
+
+
+/* ----------- iPad 3 and 4 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.hackbox{
+			margin:10px 0px 10px 0px,
+		}
 }
