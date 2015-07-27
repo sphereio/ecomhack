@@ -386,7 +386,18 @@ header{
 .btn-ecomhack{
 	background-color: rgb(242, 28, 66);
 	color: #fff;
-	margin: 0px 10px;
+	margin: 0;
+  border-radius: 0;
+  margin-top: 20px;
+	width:100%;
+}
+
+.btn-mailsubscribe{
+	background-color: rgb(242, 28, 66);
+		color: #fff;
+		margin: 0;
+	  border-radius: 0;
+
 }
 
 .email-input{
@@ -407,10 +418,6 @@ header{
 .hackevents .hackbox{
 	min-height: 200px;
 	height: 300px;
-}
-
-.eventRegButton{
-	width:100%;
 }
 
 
@@ -1061,7 +1068,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 		background-color: rgb(35,16,43);
 		padding-bottom: 50px;
 
-	 & ul li {
+	 & ol li {
 		padding: 15px;
 		color: #fff;
 	}
@@ -2214,7 +2221,6 @@ footer{
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
 }
 
 /* Portrait */
@@ -2222,6 +2228,11 @@ footer{
 	#manifesto {
 		font-size: 110%;
 	}
+
+.hackbox{
+	margin:10px 0px 10px 0px,
+}
+
 }
 
 /* Landscape */
@@ -2243,6 +2254,10 @@ footer{
 	#manifesto {
 			font-size: 110%;
 		}
+
+		.hackbox{
+			margin:10px 0px 10px 0px,
+	}
 }
 
 /* Landscape */
@@ -2262,7 +2277,9 @@ footer{
 
 /* Portrait */
 @media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
-
+	.hackbox{
+		margin:10px 0px 10px 0px,
+	}
 }
 
 /* Landscape */
