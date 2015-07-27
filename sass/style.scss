@@ -580,6 +580,17 @@ header{
 #about{
 	padding: 55px 0 95px 0;
 	background: rgb(35,16,43);
+	color: #fff;
+
+	& p {
+		color: #fff;
+	}
+
+	& ul li{
+		color: #fff; 
+	}
+
+
 	.row{
 		margin-top: 70px;
 	}
@@ -1050,7 +1061,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 #manifesto {
 
 		background-color: rgb(35,16,43);
-		padding-bottom: 50px; 
+		padding-bottom: 50px;
 
 	 & ul li {
 		padding: 15px;

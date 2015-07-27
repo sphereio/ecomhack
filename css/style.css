@@ -372,7 +372,12 @@ header {
 /* ============================== */
 #about {
   padding: 55px 0 95px 0;
-  background: #23102b; }
+  background: #23102b;
+  color: #fff; }
+  #about p {
+    color: #fff; }
+  #about ul li {
+    color: #fff; }
   #about .row {
     margin-top: 70px; }
   #about h2 {
