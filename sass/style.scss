@@ -184,7 +184,7 @@ p{
 
 .section-title{
 	color: $orange-color;
-	font-family: $merriweather-font;
+	font-family: $montserrat-font;
 	font-size: 18px;
 	font-style: italic;
 }
@@ -380,10 +380,27 @@ header{
 	}
 }
 
+
+/** claim */
+.claim{
+	font-family: $montserrat-font;
+	font-size:130%;
+	text-align:center;
+	padding:0px 0px 40px 0px;
+
+}
 /*** gallery slider */
 .carousel-inner div img{
   width: 100%;
    max-height: 60%;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    -webkit-transition: 1.6s ease-in-out left;
+    -moz-transition: 1.6s ease-in-out left;
+    -o-transition: 1.6s ease-in-out left;
+    transition: 1.6s ease-in-out left;
 }
 
 /** hackevents */
@@ -480,7 +497,7 @@ header{
 		background:url("../img/big-pic-bg.jpg") no-repeat fixed center bottom;
     background-size: auto;
     color: transparent_color(#fff, .4);
-    font-family: $merriweather-font;
+    font-family: $montserrat-font;
     position: relative;
     padding: 80px 0 235px 0;
 
@@ -632,7 +649,7 @@ header{
 
 		.large-text{
 			color: #a8b4c1;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 24px;
 			font-style: italic;
 			padding-right: 30px;
@@ -826,7 +843,7 @@ header{
 
 	.section-title{
 		color: transparent_color(#000, .35);
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-style: italic;
 	}
 
@@ -1220,7 +1237,7 @@ ul.rule-list li {
 
 		.timeline-info{
 			span{
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-style: italic;
 			}
 			h3{
@@ -1320,7 +1337,7 @@ ul.rule-list li {
 
 		p{
 		    color: #f0f1f2;
-		    font-family: $merriweather-font;
+		    font-family: $montserrat-font;
 		    font-size: 20px;
 		    font-style: italic;
 		    line-height: 40px;
@@ -1700,7 +1717,7 @@ height: 4px;
 
 	.title{
 		color: $orange-color;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 24px;
 		font-style: italic;
 		margin-top: 30px;
@@ -1738,7 +1755,7 @@ height: 4px;
 
 	input{
 		color: #a8b4c1;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 16px;
 		font-style: italic;
 		height: 50px;
@@ -1772,7 +1789,7 @@ height: 4px;
 
 			span{
 				color: #a8b4c1;
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-size: 16px;
 				font-style: italic;
 			}
@@ -1833,7 +1850,7 @@ height: 4px;
 
 		.link{
 			color: $headline-color;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 14px;
 			font-style: italic;
 			text-decoration: underline;
@@ -1906,7 +1923,7 @@ height: 4px;
 
 		span{
 			color: $orange-color;
-			font-family: $merriweather-font  !important;
+			font-family: $montserrat-font  !important;
 			font-size: 16px;
 			font-style: italic;
 		}

@@ -61,7 +61,7 @@ p {
 
 .section-title {
   color: #f46464;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: italic; }
 
@@ -218,10 +218,24 @@ header {
           .main-navigation-header .main-navigation li a:hover:before {
             height: 3px; }
 
+/** claim */
+.claim {
+  font-family: "Montserrat", sans-serif;
+  font-size: 130%;
+  text-align: center;
+  padding: 0px 0px 40px 0px; }
+
 /*** gallery slider */
 .carousel-inner div img {
   width: 100%;
   max-height: 60%; }
+
+.carousel-inner > .item {
+  position: relative;
+  -webkit-transition: 1.6s ease-in-out left;
+  -moz-transition: 1.6s ease-in-out left;
+  -o-transition: 1.6s ease-in-out left;
+  transition: 1.6s ease-in-out left; }
 
 /** hackevents */
 .btn-ecomhack {
@@ -292,7 +306,7 @@ header {
   background: url("../img/big-pic-bg.jpg") no-repeat fixed center bottom;
   background-size: auto;
   color: rgba(255, 255, 255, 0.4);
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 80px 0 235px 0; }
   #main-section .overlay {
@@ -412,7 +426,7 @@ header {
     padding-top: 85px; }
     #about .left-wrapper .large-text {
       color: #a8b4c1;
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 24px;
       font-style: italic;
       padding-right: 30px;
@@ -562,7 +576,7 @@ header {
   padding: 70px 0; }
   #jury .section-title {
     color: rgba(0, 0, 0, 0.35);
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic; }
   #jury h2 {
     color: #fff;
@@ -873,7 +887,7 @@ ul.rule-list li {
       width: 50%;
       padding: 0 40px; }
     #timeline .timeline-wrapper .timeline-info span {
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-style: italic; }
     #timeline .timeline-wrapper .timeline-info h3 {
       font-family: "Montserrat", sans-serif;
@@ -959,7 +973,7 @@ ul.rule-list li {
     /* stops bg color from leaking outside the border: */ }
   #testimonials .testi-slide p {
     color: #f0f1f2;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: italic;
     line-height: 40px;
@@ -1249,7 +1263,7 @@ ul.rule-list li {
     margin-top: 40px; }
   #cta-section .title {
     color: #f46464;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: italic;
     margin-top: 30px; }
@@ -1277,7 +1291,7 @@ ul.rule-list li {
   padding: 35px 0; }
   #form-section input {
     color: #a8b4c1;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: italic;
     height: 50px;
@@ -1316,7 +1330,7 @@ ul.rule-list li {
       padding-left: 20px; }
       #form-section .bootstrap-select .selectpicker span {
         color: #a8b4c1;
-        font-family: "Merriweather", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-style: italic; }
       #form-section .bootstrap-select .selectpicker:hover {
@@ -1359,7 +1373,7 @@ ul.rule-list li {
       margin-top: 15px; }
     #socials .col-item .link {
       color: #3b475f;
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 14px;
       font-style: italic;
       text-decoration: underline; }
@@ -1415,7 +1429,7 @@ ul.rule-list li {
       font-weight: 400; }
     #map-location .info-window span {
       color: #f46464;
-      font-family: "Merriweather", sans-serif !important;
+      font-family: "Montserrat", sans-serif !important;
       font-size: 16px;
       font-style: italic; }
     #map-location .info-window p {
