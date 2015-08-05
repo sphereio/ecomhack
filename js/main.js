@@ -119,7 +119,7 @@ $(function(){
 	});
 
   $("#myCarousel").carousel({
-    interval: 400
+    interval: 1500
   });
 
 	$('#plan-select').selectpicker();
