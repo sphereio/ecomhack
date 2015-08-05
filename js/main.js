@@ -119,7 +119,7 @@ $(function(){
 	});
 
   $("#myCarousel").owlCarousel({
-		singleItem: true,
+		singleItem: false,
 		slideSpeed : 400
 	});
 
