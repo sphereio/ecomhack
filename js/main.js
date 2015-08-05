@@ -118,6 +118,11 @@ $(function(){
 		slideSpeed : 400
 	});
 
+  $("#myCarousel").owlCarousel({
+		singleItem: true,
+		slideSpeed : 400
+	});
+
 	$('#plan-select').selectpicker();
 
 });
