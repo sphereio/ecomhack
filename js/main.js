@@ -118,10 +118,9 @@ $(function(){
 		slideSpeed : 400
 	});
 
-  $("#myCarousel").owlCarousel({
-		singleItem: false,
-		slideSpeed : 400
-	});
+  $("#myCarousel").carousel({
+    interval: 400
+  });
 
 	$('#plan-select').selectpicker();
 
