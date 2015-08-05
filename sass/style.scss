@@ -392,7 +392,7 @@ header{
 /*** gallery slider */
 .carousel-inner div img{
   width: 100%;
-   max-height: 60%;
+	margin: 0;
 }
 
 .carousel-inner > .item {
@@ -401,6 +401,7 @@ header{
     -moz-transition: 1.6s ease-in-out left;
     -o-transition: 1.6s ease-in-out left;
     transition: 1.6s ease-in-out left;
+		margin: 0;
 }
 
 /** hackevents */
