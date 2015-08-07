@@ -13,6 +13,7 @@ $montserrat-font: 'Montserrat', sans-serif;
 $opensans-font: 'Open Sans', sans-serif;
 $merriweather-font: 'Merriweather', sans-serif;
 
+$ecomhack-red:rgb(242, 28, 66);
 
 /* =======  mixins  ========  */
 
@@ -230,12 +231,12 @@ a:focus, a:active{outline: none;}
 }
 
 //---- override bootstrap styles ------
-.navbar{transition: all .5s;}
-.nav > li > a:hover, .nav > li > a:focus{background-color: transparent;}
+.navbar{transition: all .5s; background-color: #fff;}
+.nav > li > a:hover, .nav > li > a:focus{/*background-color: transparent;*/}
 .navbar-nav > li > a{padding: 10px 15px;}
 .navbar-nav{padding-top: 15px !important;}
 .navbar-header{padding-bottom: 5px !important; transition: all .5s;}
-.navbar{margin-bottom: 0; padding-top: 15px !important; padding-bottom: 20px !important; transition: all .5s;}
+.navbar{margin-bottom: 0; padding: 20px 0px !important;  transition: all .5s;}
 
 .navbar-toggle{
 	margin-top: 15px;
@@ -353,7 +354,7 @@ header{
 			text-align: center;
 			a{
 				font-family: $montserrat-font;
-				color: transparent_color(#fff, .3);
+				color: #3b475f;
 				position: relative;
 				transition: all .6s;
         text-align: left;
@@ -369,7 +370,7 @@ header{
 				    z-index: 20;
 				}
 				&:hover{
-					color: #fff;
+					color: $ecomhack-red;
 					&:before{
 						height: 3px;
 					}
@@ -406,20 +407,23 @@ header{
 /** hackevents */
 
 .btn-ecomhack{
-	background-color: rgb(242, 28, 66);
+	background-color: $ecomhack-red;
 	color: #fff;
 	margin: 0;
-  border-radius: 0;
+  border-radius:5px;
   margin-top: 20px;
 	width:100%;
 }
 
 .btn-mailsubscribe{
-	background-color: rgb(242, 28, 66);
-		color: #fff;
-		margin: 0;
-	  border-radius: 0;
-
+	background-color: $ecomhack-red;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	font-size: 18px;
+	padding: 10px 0px;
+	margin-left: 30px;
+	display: block;
 }
 
 .email-input{
@@ -447,13 +451,14 @@ header{
 	width: 100%;
 	background-color: rgb(35,16,43);
 	color: #fff;
+	padding-bottom: 25px;
 
 	&	blockquote {
 	  background: rgb(35,16,43);
 	  border-left: 5px solid rgb(242,28,66);
 		color: #fff;
-	  margin: 1.5em 10px;
-	  padding: 0.5em 10px;
+	  margin: 15px 0px;
+	  padding: 0em 10px;
 	}
 
 	& blockquote p {
@@ -479,7 +484,7 @@ header{
 	}
 
 	& hr {
-		background-color: rgb(242, 28, 66);
+		background-color: $ecomhack-red;
 		margin: 25px auto;
 		border: none;
 		text-align: center;
@@ -499,7 +504,7 @@ header{
     color: transparent_color(#fff, .4);
     font-family: $montserrat-font;
     position: relative;
-    padding: 80px 0 135px 0;
+    padding: 80px  0 0px 0;
 
 
     .overlay{
@@ -1015,7 +1020,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	}
 
 	hr{
-		background-color: rgb(242, 28, 66);
+		background-color: $ecomhack-red;
 		text-align: left;
 		margin: 25px 0;
 	}
@@ -1093,22 +1098,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /* ============================== */
 #manifesto {
 
-		background-color: rgb(35,16,43);
+		// background-color: rgb(35,16,43);
+		background-color:#19102b;
 		padding-bottom: 50px;
 
+	& ol{
+		padding-left: 0;
+	}
 	 & ol li {
 		padding: 15px;
 		color: #fff;
+		padding-left:0;
 	}
 
 	& h2{
-		padding-top: 75px;
+		padding-top: 25px;
 		color: #fff;
 		text-align: center;
 	}
 
 	& hr {
-		background-color: rgb(242, 28, 66);
+		background-color: $ecomhack-red;
 		margin: 25px auto;
 		border: none;
 		text-align: center;
@@ -1590,7 +1600,7 @@ ul.rule-list li {
 		// background: linear-gradient(to right, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
 		// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );
 
-		background-color: rgb(242, 28, 66);
+		background-color: $ecomhack-red;
 margin: 25px auto;
 border: none;
 text-align: center;
@@ -1955,11 +1965,14 @@ height: 4px;
 footer{
 	padding: 25px 0;
 	font-size: 14px;
+	background-color: #19102b;
+	color:#fff;
 
 	.copyright{
+		color:#fff;
 		margin: 0;
 		a{
-			color: $headline-color;
+			color: $ecomhack-red;
 			font-family: $montserrat-font;
 		}
 	}
@@ -1972,8 +1985,11 @@ footer{
 		}
 
 		a{
-			color: $headline-color;
+			color: #fff;
 			font-family: $montserrat-font;
+		}
+		a:hover{
+			color:$ecomhack-red;
 		}
 	}
 }
@@ -2097,7 +2113,7 @@ footer{
 		}
 
 		hr {
-			background-color: rgb(242, 28, 66);
+			background-color: $ecomhack-red;
 			margin: 25px auto;
 			border: none;
 			text-align: center;
@@ -2384,4 +2400,21 @@ footer{
 		.hackbox{
 			margin:10px 0px 10px 0px,
 		}
+}
+
+
+
+.sticky-navbar .nav li.current a:before{
+	background-color: $ecomhack-red;
+}
+.sticky-navbar .nav>li>a:hover:before{
+	background-color: $ecomhack-red;
+}
+
+.carousel-inner{
+	max-height: 800px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background: none;
 }
