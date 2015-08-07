@@ -119,7 +119,7 @@ $(function(){
 	});
 
   $("#myCarousel").carousel({
-    interval: true,
+    interval: 5000,
     pause: "hover"
   });
 
