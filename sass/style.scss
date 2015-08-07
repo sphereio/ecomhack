@@ -2304,7 +2304,24 @@ footer{
 	}
 
 .hackbox{
-	margin:10px 0px,
+	margin:10px 0px;
+	width: 100%;
+}
+
+.cologne{
+
+}
+
+.berlin{
+	margin:10px 0px !important;
+}
+
+.newyork{
+	margin:10px 0px !important;
+}
+
+.btn-ecomhack{
+	width: 100% ;
 }
 
 }
@@ -2312,6 +2329,10 @@ footer{
 /* Landscape */
 @media only screen and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
 
+	.hackbox{
+		width: 100% !important;
+		margin:10px 0px !important;
+	}
 }
 
 /* ----------- iPhone 6 ----------- */
