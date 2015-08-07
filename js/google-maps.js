@@ -8,9 +8,9 @@ function initialize() {
 	        center: windowLatLng,
 	        zoom: 13,
 	        scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-			scaleControl: false,
+    			navigationControl: false,
+    			mapTypeControl: false,
+    			scaleControl: false,
 	        mapTypeId: google.maps.MapTypeId.ROADMAP
         }
 
