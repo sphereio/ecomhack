@@ -2295,6 +2295,11 @@ footer{
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.navbar{
+	padding: 5px 0 !important;
+}
+
 }
 
 /* Portrait */
@@ -2340,8 +2345,14 @@ footer{
 
 	.hackbox{
 		width: 100% !important;
+		max-width: 100% !important;
 		margin:10px 0px !important;
 	}
+
+	.btn-mailsubscribe{
+	max-width: 100% !important;
+	width: 100%;
+}
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -2351,6 +2362,11 @@ footer{
 	#manifesto {
 			font-size: 110%;
 		}
+
+		.navbar{
+	padding: 5px 0 !important;
+}
+
 }
 
 /* Portrait */
@@ -2370,19 +2386,30 @@ footer{
 		#manifesto {
 				font-size: 110%;
 			}
+
+		.btn-mailsubscribe{
+			max-width: 100% !important;
+			width: 100%;
+		}
 }
 
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+	.navbar{
+	padding: 5px 0 !important;
+}
+
 
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {.hackbox{
-	margin:10px 0px,
-}
+@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
+
+	.hackbox{
+		margin:10px 0px,
+	}
 }
 
 
