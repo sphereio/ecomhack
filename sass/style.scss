@@ -412,7 +412,8 @@ header{
 	margin: 0;
   border-radius:5px;
   margin-top: 20px;
-	width:100%;
+	width:350px;
+	max-width: 350px;
 }
 
 .btn-mailsubscribe{
@@ -422,8 +423,8 @@ header{
 	border-radius: 0;
 	font-size: 18px;
 	padding: 10px 0px;
-	margin-left: 30px;
 	display: block;
+	max-width: 350px;
 }
 
 .email-input{
@@ -444,6 +445,9 @@ header{
 .hackevents .hackbox{
 	min-height: 200px;
 	height: 300px;
+	max-width: 350px;
+	margin: 20px 40px 20px 0px;
+	padding: 0px 20px;
 }
 
 
@@ -2300,7 +2304,7 @@ footer{
 	}
 
 .hackbox{
-	margin:10px 0px 10px 0px,
+	margin:10px 0px,
 }
 
 }
@@ -2326,8 +2330,8 @@ footer{
 		}
 
 		.hackbox{
-			margin:10px 0px 10px 0px,
-	}
+			margin:10px 0px,
+		}
 }
 
 /* Landscape */
@@ -2346,10 +2350,9 @@ footer{
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
-	.hackbox{
-		margin:10px 0px 10px 0px,
-	}
+@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {.hackbox{
+	margin:10px 0px,
+}
 }
 
 
