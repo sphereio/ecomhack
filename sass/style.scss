@@ -505,10 +505,6 @@ header{
 /*		    main section  	      */
 /* ============================== */
 
-.mainBG{
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
-	}
-	
 #main-section{
 /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
 		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
@@ -2305,11 +2301,13 @@ footer{
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
 	.navbar{
-	padding: 5px 0 !important;
-}
-
+		padding: 5px 0 !important;
+	}
+	.mainBG{
+		width: 100%;
+		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
+	}
 }
 
 /* Portrait */
@@ -2381,6 +2379,11 @@ footer{
 	padding: 5px 0 !important;
 }
 
+.mainBG{
+		width: 100%;
+		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
+	}
+
 }
 
 /* Portrait */
@@ -2414,6 +2417,11 @@ footer{
 	.navbar{
 	padding: 5px 0 !important;
 }
+
+.mainBG{
+		width: 100%;
+		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
+	}
 
 
 }
