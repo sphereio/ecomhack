@@ -505,6 +505,10 @@ header{
 /*		    main section  	      */
 /* ============================== */
 
+.mainBG{
+		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
+	}
+	
 #main-section{
 /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
 		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
@@ -513,6 +517,8 @@ header{
     font-family: $montserrat-font;
     position: relative;
     padding: 80px  0 0px 0;
+
+
 
 
     .overlay{
@@ -2312,6 +2318,10 @@ footer{
 		font-size: 110%;
 	}
 
+	.oreilly-logo{
+		margin-left: 50px !important;
+	}
+
 .hackbox{
 	margin:10px 0px;
 	width: 100%;
@@ -2412,7 +2422,7 @@ footer{
 @media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
 
 	.hackbox{
-		margin:10px 0px,
+		margin:10px 0px;
 	}
 }
 
@@ -2425,9 +2435,47 @@ footer{
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
 		.hackbox{
-			margin:10px 0px 10px 0px,
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+		}
+
+		.newyork{
+			margin-left: 0px !important;
+		}
+		.btn-ecomhack{
+			max-width: 100% !important;
+			width: 100%;
 		}
 }
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+			width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+		}
+
+		.newyork{
+			margin-left: 0px !important;
+		}
+		.btn-ecomhack{
+			max-width: 100% !important;
+			width: 100%;
+		}
+}
+
 
 /* ----------- iPad 1 and 2 ----------- */
 
@@ -2438,8 +2486,11 @@ footer{
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
 		.hackbox{
-			margin:10px 0px 10px 0px,
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+			width: 100% !important;
 		}
+
 }
 
 
@@ -2453,7 +2504,47 @@ footer{
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
 		.hackbox{
-			margin:10px 0px 10px 0px,
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+
+		.newyork{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+		.btn-ecomhack{
+			max-width: 100% !important;
+		}
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+
+		.newyork{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+		.btn-ecomhack{
+			max-width: 100% !important;
 		}
 }
 
@@ -2462,8 +2553,13 @@ footer{
   and (min-device-width: 768px)
   and (max-device-width: 920px){
 		.hackbox{
-			margin:10px 0px 10px 0px,
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
 		}
+		.btn-ecomhack{
+	max-width: 100% !important;
+}
 }
 
 
@@ -2481,4 +2577,8 @@ footer{
 
 .nav>li>a:hover, .nav>li>a:focus{
 	background: none;
+}
+
+#myCarousel{
+	margin-bottom: 25px;
 }
