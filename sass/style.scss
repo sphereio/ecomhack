@@ -505,9 +505,16 @@ header{
 /*		    main section  	      */
 /* ============================== */
 
+.mainBG{
+		width: 100%;
+		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
+		background-size: auto;
+		position: relative;
+		padding: 80px  0 0px 0;
+	}
+
 #main-section{
 /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
     background-size: auto;
     color: transparent_color(#fff, .8);
     font-family: $montserrat-font;
