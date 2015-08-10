@@ -507,10 +507,12 @@ header{
 
 .mainBG{
 		width: 100%;
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
-		background-size: auto;
+		height: 100vh;
+		background:url("../img/big-pic-bg-bw.jpg");
+		background-size: cover;
 		position: relative;
 		padding: 80px  0 0px 0;
+		color: #fff;
 	}
 
 #main-section{
@@ -519,10 +521,6 @@ header{
     color: transparent_color(#fff, .8);
     font-family: $montserrat-font;
     position: relative;
-    padding: 80px  0 0px 0;
-
-
-
 
     .overlay{
     	background-color: rgb(35, 16, 43);
@@ -2311,10 +2309,7 @@ footer{
 	.navbar{
 		padding: 5px 0 !important;
 	}
-	.mainBG{
-		width: 100%;
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
-	}
+
 }
 
 /* Portrait */
@@ -2386,10 +2381,6 @@ footer{
 	padding: 5px 0 !important;
 }
 
-.mainBG{
-		width: 100%;
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
-	}
 
 }
 
@@ -2425,10 +2416,7 @@ footer{
 	padding: 5px 0 !important;
 }
 
-.mainBG{
-		width: 100%;
-		background:url("../img/big-pic-bg-bw.jpg") no-repeat fixed center bottom;
-	}
+
 
 
 }
@@ -2576,6 +2564,30 @@ footer{
 	max-width: 100% !important;
 }
 }
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackevents{
+				margin-top:150px !important;
+		}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+		.hackevents{
+			margin-top:0px !important;
+	}
+}
+
 
 
 
