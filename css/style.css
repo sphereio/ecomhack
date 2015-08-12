@@ -1923,4 +1923,7 @@ footer {
   .newsletterSignup:-ms-input-placeholder {
     font-style: italic; }
 
+.dropdown-backdrop {
+  position: static; }
+
 /*# sourceMappingURL=style.css.map */

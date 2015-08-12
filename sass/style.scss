@@ -2682,3 +2682,7 @@ footer{
 	max-width:810px;
 	@include input-placeholder(italic);
 }
+
+.dropdown-backdrop {
+    position: static;
+}
