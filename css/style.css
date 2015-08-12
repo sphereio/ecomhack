@@ -1729,6 +1729,9 @@ footer {
   .mainBG {
     height: 100vh; }
 
+  .main-intro h1 {
+    padding-top: 10vh; }
+
   .oreilly-logo {
     margin-left: 50px !important; }
 
