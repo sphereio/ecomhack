@@ -1730,7 +1730,7 @@ footer {
     height: 100vh; }
 
   .main-intro h1 {
-    padding-top: 5vh !important; }
+    padding-top: 0vh !important; }
 
   .oreilly-logo {
     margin-left: 50px !important; }
