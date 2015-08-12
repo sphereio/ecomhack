@@ -1986,4 +1986,7 @@ footer {
   text-transform: uppercase;
   font-weight: 700; }
 
+li.dropdown {
+  text-align: none; }
+
 /*# sourceMappingURL=style.css.map */
