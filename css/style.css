@@ -1736,6 +1736,9 @@ footer {
     margin: 10px 0px;
     width: 100%; }
 
+  li.dropdown {
+    text-align: inherit; }
+
   .berlin {
     margin: 10px 0px !important; }
 
@@ -1786,7 +1789,10 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 330px !important; } }
+    max-width: 330px !important; }
+
+  li.dropdown {
+    text-align: inherit; } }
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #manifesto {
@@ -1845,7 +1851,10 @@ footer {
     margin: 0px 10px; }
 
   #impressions {
-    margin: 0px 10px; } }
+    margin: 0px 10px; }
+
+  li.dropdown {
+    text-align: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .hackbox {
     margin: 10px 0px 10px 0px;
@@ -1877,7 +1886,10 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+
+  li.dropdown {
+    text-align: inherit; } }
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1896,7 +1908,10 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+
+  li.dropdown {
+    text-align: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .hackbox {
     margin: 10px 0px 10px 0px;
@@ -1985,8 +2000,5 @@ footer {
   margin-top: 3px;
   text-transform: uppercase;
   font-weight: 700; }
-
-li.dropdown {
-  text-align: inherit; }
 
 /*# sourceMappingURL=style.css.map */
