@@ -2336,7 +2336,9 @@ footer{
 	.mainBG{
 		height: 100vh;
 	}
-
+	#manifesto{
+		padding: 0px 15px;
+	}
 
 }
 
@@ -2453,6 +2455,10 @@ footer{
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 	.navbar{
 	padding: 5px 0 !important;
+
+	#manifesto{
+		padding: 0px 15px;
+	}
 }
 
 
