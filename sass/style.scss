@@ -2374,7 +2374,8 @@ footer{
 }
 
 .btn-ecomhack{
-	width: 100% ;
+	margin: 10px 0px;
+	max-width: 100% !important;
 }
 
 #manifesto ol{
@@ -2404,6 +2405,10 @@ footer{
 	max-width: 100% !important;
 	width: 100%;
 }
+.btn-ecomhack{
+	margin: 10px 0px;
+	max-width: 100% !important;
+}
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -2430,6 +2435,10 @@ footer{
 		.hackbox{
 			margin:10px 0px,
 		}
+		.btn-ecomhack{
+	margin: 10px 0px;
+	max-width: 100% !important;
+}
 }
 
 /* Landscape */
@@ -2447,6 +2456,10 @@ footer{
 		.mainBG{
 		height: 120vh;
 	}
+	.btn-ecomhack{
+	margin: 10px 0px;
+	max-width: 100% !important;
+}
 }
 
 /* ----------- iPhone 6+ ----------- */
@@ -2459,6 +2472,10 @@ footer{
 	#manifesto{
 		padding: 0px 15px;
 	}
+	.btn-ecomhack{
+	margin: 10px 0px;
+	max-width: 100% !important;
+}
 }
 
 
@@ -2472,6 +2489,10 @@ footer{
 	.hackbox{
 		margin:10px 0px;
 	}
+	.btn-ecomhack{
+	margin: 10px 0px;
+	max-width: 100% !important;
+}
 }
 
 
@@ -2507,9 +2528,9 @@ footer{
 			margin-left: 0px !important;
 		}
 		.btn-ecomhack{
-			width: 100%;
-			max-width: none !important;
-		}
+		margin: 10px 0px;
+		max-width: 100% !important;
+	}
 
 
 
@@ -2539,15 +2560,16 @@ footer{
 			margin-left: 0px !important;
 		}
 		.btn-ecomhack{
+			margin: 10px 0px;
 			max-width: 100% !important;
-			width: 100%;
 		}
+
 		.btn-mailsubscribe{
-	display: block;
-	max-width: 500px;
-	font-size:18px;
-	padding: 10px 0px;
-}
+			display: block;
+			max-width: 500px;
+			font-size:18px;
+			padding: 10px 0px;
+	}
 
 }
 
@@ -2564,6 +2586,11 @@ footer{
 			margin:10px 0px 10px 0px;
 			max-width: 100%;
 			width: 100% !important;
+		}
+
+		.btn-ecomhack{
+			margin: 10px 0px;
+			max-width: 100% !important;
 		}
 
 }
@@ -2594,6 +2621,7 @@ footer{
 			min-height: unset;
 		}
 		.btn-ecomhack{
+			margin: 10px 0px;
 			max-width: 100% !important;
 		}
 }
@@ -2619,6 +2647,7 @@ footer{
 			min-height: unset;
 		}
 		.btn-ecomhack{
+			margin: 10px 0px;
 			max-width: 100% !important;
 		}
 }
