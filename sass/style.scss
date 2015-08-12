@@ -443,7 +443,7 @@ header{
   border-radius:5px;
 	padding: 10px 0px;
 	display: block;
-	max-width: 550px;
+	max-width: 350px;
 	font-size:18px;
 	padding: 10px 0px;
 }
@@ -2715,6 +2715,10 @@ li.dropdown{
   and (min-resolution: 192dpi) {
 		.hackevents{
 			margin-top:0px !important;
+	}
+
+	.main-intro h1{
+		padding-top: 7vh !important;
 	}
 }
 
