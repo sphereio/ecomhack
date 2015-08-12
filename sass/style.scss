@@ -2507,9 +2507,8 @@ footer{
 			margin-left: 0px !important;
 		}
 		.btn-ecomhack{
-			max-width: 100% !important;
 			width: 100%;
-			max-width: none;
+			max-width: inherit !important;
 		}
 
 
