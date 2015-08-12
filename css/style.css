@@ -1744,7 +1744,7 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 350px !important; }
+    max-width: 275px !important; }
 
   #manifesto ol {
     padding-left: 20px; }
@@ -1767,7 +1767,7 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 350px !important; } }
+    max-width: 275px !important; } }
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1786,7 +1786,7 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 350px !important; } }
+    max-width: 330px !important; } }
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #manifesto {
@@ -1811,7 +1811,7 @@ footer {
       padding: 0px 15px; }
     .navbar .btn-ecomhack {
       margin: 5px 10px 10px 10px;
-      max-width: 350px !important; } }
+      max-width: 330px !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .hackbox {
