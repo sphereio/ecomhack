@@ -2333,6 +2333,11 @@ footer{
 		padding: 5px 0 !important;
 	}
 
+	.mainBG{
+		height: 100vh;
+	}
+
+
 }
 
 /* Portrait */
@@ -2340,6 +2345,10 @@ footer{
 	#manifesto {
 		font-size: 110%;
 	}
+	.mainBG{
+	height: 100vh;
+}
+
 
 	.oreilly-logo{
 		margin-left: 50px !important;
@@ -2379,6 +2388,9 @@ footer{
 
 /* Landscape */
 @media only screen and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+	.mainBG{
+		height: 100vh;
+	}
 
 	.hackbox{
 		width: 100% !important;

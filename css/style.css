@@ -1714,11 +1714,17 @@ footer {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .navbar {
-    padding: 5px 0 !important; } }
+    padding: 5px 0 !important; }
+
+  .mainBG {
+    height: 100vh; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #manifesto {
     font-size: 110%; }
+
+  .mainBG {
+    height: 100vh; }
 
   .oreilly-logo {
     margin-left: 50px !important; }
@@ -1743,6 +1749,9 @@ footer {
     margin: 15px 20px; } }
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mainBG {
+    height: 100vh; }
+
   .hackbox {
     width: 100% !important;
     max-width: 100% !important;
