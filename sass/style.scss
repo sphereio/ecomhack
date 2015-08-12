@@ -102,6 +102,22 @@ $ecomhack-red:rgb(242, 28, 66);
      background-clip: padding-box;
 }
 
+// placeholder mixin
+@mixin input-placeholder($fontStyle){
+
+	&::-webkit-input-placeholder{
+    font-style: $fontStyle;	}
+
+	&:-moz-placeholder{
+    font-style: $fontStyle;	}
+
+	&::-moz-placeholder { //for newer versions of Firefox
+    font-style: $fontStyle;
+			}
+  &:-ms-input-placeholder {
+    font-style: $fontStyle	}
+	}
+
 
 .col-xs-15,
 .col-sm-15,
@@ -424,11 +440,12 @@ header{
 	background-color: $ecomhack-red;
 	color: #fff;
 	margin: 0;
-	border-radius: 0;
-	font-size: 18px;
+  border-radius:5px;
 	padding: 10px 0px;
 	display: block;
 	max-width: 550px;
+	font-size:18px;
+	padding: 10px 0px;
 }
 
 .email-input{
@@ -437,7 +454,7 @@ header{
 }
 
 .hackevents{
-	background-color: rgb(25, 16, 43);
+	background-color: #fff;
 	width: 100%;
 	padding: 25px;
 }
@@ -457,12 +474,12 @@ header{
 
 #impressions {
 	width: 100%;
-	background-color: rgb(35,16,43);
+	background-color:#fff;
 	color: #fff;
 	padding-bottom: 25px;
 
 	&	blockquote {
-	  background: rgb(35,16,43);
+	  background: #fff;
 	  border-left: 5px solid rgb(242,28,66);
 		color: #fff;
 	  margin: 15px 0px;
@@ -471,15 +488,15 @@ header{
 
 	& blockquote p {
 	  display: inline;
-		color: #fff;
+		color: #3b475f;
 	}
 
 	& blockquote cite{
-		color: #fff;
+		color: #3b475f;
 	}
 
 	& blockquote cite a {
-		color: rgb(242,28,66);
+		color: #3b475f;
 	}
 
 	& blockquote footer {
@@ -487,7 +504,7 @@ header{
 	}
 
 	& h2{
-		color: rgb(255, 255, 255);
+		color: #3b475f;
 		text-align: center;
 	}
 
@@ -894,13 +911,13 @@ header{
 			width: 260px;
 			padding: 10px;
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
-background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
+			background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
+			background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
+			background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
 			@include radius(50%);
 			position: relative;
 			overflow: hidden;
@@ -1120,7 +1137,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 #manifesto {
 
 		// background-color: rgb(35,16,43);
-		background-color:#19102b;
+		background-color:#fff;
 		padding-bottom: 50px;
 
 	& ol{
@@ -1128,13 +1145,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	}
 	 & ol li {
 		padding: 15px;
-		color: #fff;
+		color: #3b475f;
 		padding-left:0;
 	}
 
 	& h2{
 		padding-top: 25px;
-		color: #fff;
+		color: #3b475f;
 		text-align: center;
 	}
 
@@ -1155,7 +1172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /* ============================== */
 
 ul.rule-list li {
-	color: #fff;
+	color: #3b475f;
 	font-size: 24px;
 	line-height: 1.7em;
 	padding:10px 0px;
@@ -1986,11 +2003,11 @@ height: 4px;
 footer{
 	padding: 25px 0;
 	font-size: 14px;
-	background-color: #19102b;
+	background-color: #fff;
 	color:#fff;
 
 	.copyright{
-		color:#fff;
+		color:#3b475f;
 		margin: 0;
 		a{
 			color: $ecomhack-red;
@@ -2006,7 +2023,7 @@ footer{
 		}
 
 		a{
-			color: #fff;
+			color: #3b475f;
 			font-family: $montserrat-font;
 		}
 		a:hover{
@@ -2614,4 +2631,11 @@ footer{
 
 #myCarousel{
 	margin-bottom: 25px;
+}
+
+.newsletterSignup{
+	color:#000;
+	border-radius:0;
+	max-width:810px;
+	@include input-placeholder(italic);
 }
