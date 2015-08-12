@@ -1987,6 +1987,6 @@ footer {
   font-weight: 700; }
 
 li.dropdown {
-  text-align: none; }
+  text-align: inherit; }
 
 /*# sourceMappingURL=style.css.map */
