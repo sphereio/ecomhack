@@ -1839,7 +1839,13 @@ footer {
 
   .btn-ecomhack {
     margin: 5px 10px 10px 10px;
-    max-width: 350px !important; } }
+    max-width: 350px !important; }
+
+  #manifesto {
+    margin: 0px 10px; }
+
+  #impressions {
+    margin: 0px 10px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .hackbox {
     margin: 10px 0px 10px 0px;
