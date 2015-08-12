@@ -1782,7 +1782,10 @@ footer {
 
   .btn-mailsubscribe {
     max-width: 100% !important;
-    width: 100%; } }
+    width: 100%; }
+
+  .mainBG {
+    height: 120vh; } }
 /* ----------- iPhone 6+ ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -1792,7 +1795,11 @@ footer {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .hackbox {
     margin: 10px 0px; } }
-/* ----------- iPad mini ----------- */
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .mainBG {
+    height: 120vh; } }
+/* ----------- iP/ad mini ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .hackbox {
