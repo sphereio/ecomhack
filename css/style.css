@@ -1743,7 +1743,7 @@ footer {
     margin: 10px 0px !important; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; }
 
   #manifesto ol {
@@ -1766,7 +1766,7 @@ footer {
     width: 100%; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
@@ -1785,7 +1785,7 @@ footer {
     margin: 10px 0px; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -1800,7 +1800,7 @@ footer {
     height: 120vh; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* ----------- iPhone 6+ ----------- */
 /* Portrait and Landscape */
@@ -1810,7 +1810,7 @@ footer {
     .navbar #manifesto {
       padding: 0px 15px; }
     .navbar .btn-ecomhack {
-      margin: 10px 0px;
+      margin: 5px 10px 10px 10px;
       max-width: 100% !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -1818,7 +1818,7 @@ footer {
     margin: 10px 0px; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
@@ -1838,7 +1838,7 @@ footer {
     margin-left: 0px !important; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .hackbox {
@@ -1853,7 +1853,7 @@ footer {
     margin-left: 0px !important; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; }
 
   .btn-mailsubscribe {
@@ -1870,7 +1870,7 @@ footer {
     width: 100% !important; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait */
@@ -1889,7 +1889,7 @@ footer {
     min-height: unset; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .hackbox {
@@ -1906,7 +1906,7 @@ footer {
     min-height: unset; }
 
   .btn-ecomhack {
-    margin: 10px 0px;
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 920px) {
   .hackbox {
@@ -1915,6 +1915,7 @@ footer {
     max-width: 100% !important; }
 
   .btn-ecomhack {
+    margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* ----------- Non-Retina Screens ----------- */
 /* ----------- Retina Screens ----------- */
