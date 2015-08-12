@@ -2510,7 +2510,15 @@ footer{
 			max-width: 100% !important;
 			width: 100%;
 		}
+
+
+
 }
+
+
+
+
+// ipad mini landscape
 
 @media only screen
   and (min-device-width: 768px)
@@ -2534,6 +2542,13 @@ footer{
 			max-width: 100% !important;
 			width: 100%;
 		}
+		.btn-mailsubscribe{
+	display: block;
+	max-width: 500px;
+	font-size:18px;
+	padding: 10px 0px;
+}
+
 }
 
 
@@ -2641,9 +2656,6 @@ footer{
 			margin-top:0px !important;
 	}
 }
-
-
-
 
 .sticky-navbar .nav li.current a:before{
 	background-color: $ecomhack-red;
