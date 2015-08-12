@@ -1974,11 +1974,14 @@ footer {
 
 .drp {
   background-color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   color: #3b475f;
   position: relative;
   transition: all .6s;
   text-align: left;
-  z-index: 1; }
+  z-index: 1;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 3px; }
 
 /*# sourceMappingURL=style.css.map */
