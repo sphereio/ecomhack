@@ -2352,7 +2352,7 @@ footer{
 }
 
 .main-intro h1{
-	padding-top: 10vh;
+	padding-top: 10vh !important;
 }
 
 
@@ -2439,6 +2439,10 @@ li.dropdown{
 	#manifesto {
 			font-size: 110%;
 		}
+
+		.main-intro h1{
+		padding-top: 15vh !important;
+}
 
 		.hackbox{
 			margin:10px 0px,
