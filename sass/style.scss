@@ -489,6 +489,8 @@ header{
 	& blockquote p {
 	  display: inline;
 		color: #3b475f;
+		font-family:$opensans-font;
+		font-size: 18px;
 	}
 
 	& blockquote cite{
@@ -1142,11 +1144,14 @@ header{
 
 	& ol{
 		padding-left: 0;
+		text-align: center;
 	}
 	 & ol li {
 		padding: 15px;
 		color: #3b475f;
 		padding-left:0;
+		font-family: $opensans-font;
+		font-size: 18px;
 	}
 
 	& h2{
@@ -2005,13 +2010,14 @@ footer{
 	font-size: 14px;
 	background-color: #fff;
 	color:#fff;
+	font-family:$opensans-font;
 
 	.copyright{
 		color:#3b475f;
 		margin: 0;
 		a{
 			color: $ecomhack-red;
-			font-family: $montserrat-font;
+			font-family:$opensans-font;
 		}
 	}
 

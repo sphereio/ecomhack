@@ -294,7 +294,9 @@ header {
     padding: 0em 10px; }
   #impressions blockquote p {
     display: inline;
-    color: #3b475f; }
+    color: #3b475f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
   #impressions blockquote cite {
     color: #3b475f; }
   #impressions blockquote cite a {
@@ -801,11 +803,14 @@ header {
   background-color: #fff;
   padding-bottom: 50px; }
   #manifesto ol {
-    padding-left: 0; }
+    padding-left: 0;
+    text-align: center; }
   #manifesto ol li {
     padding: 15px;
     color: #3b475f;
-    padding-left: 0; }
+    padding-left: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
   #manifesto h2 {
     padding-top: 25px;
     color: #3b475f;
@@ -1480,13 +1485,14 @@ footer {
   padding: 25px 0;
   font-size: 14px;
   background-color: #fff;
-  color: #fff; }
+  color: #fff;
+  font-family: "Open Sans", sans-serif; }
   footer .copyright {
     color: #3b475f;
     margin: 0; }
     footer .copyright a {
       color: #f21c42;
-      font-family: "Montserrat", sans-serif; }
+      font-family: "Open Sans", sans-serif; }
   footer ul {
     display: inline-block;
     margin: 0; }
