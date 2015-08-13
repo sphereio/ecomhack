@@ -1951,6 +1951,9 @@ footer {
     margin: 5px 10px 10px 10px;
     max-width: 100% !important; } }
 /* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .main-intro h1 {
+    padding-top: 0vh !important; } }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .hackevents {
