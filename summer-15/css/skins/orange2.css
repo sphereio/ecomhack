@@ -1,0 +1,101 @@
+.section-title {
+	color: #f46464;
+}
+
+header .logo:before {
+	background-color: #f46464;
+}
+
+.sticky-navbar .nav > li > a:hover:before {
+	background-color: #f46464 !important;
+}
+
+.sticky-navbar .nav li.current a:before {
+	background-color: #f46464 !important;
+}
+
+#main-section .main-intro .main-button {
+  	background: #f46464;
+}
+#main-section .main-intro .main-button:hover {
+	background-color: #f57a7a;
+}
+
+#features .feature-item:hover > a {
+  color: #f46464;
+}
+
+#features .owl-pagination .active span {
+	background-color: #f46464;
+}
+
+#team-section {
+  background: #f46464;
+}
+
+#team-section .team-item .hovered i {
+  background: #f46464;
+}
+
+
+#timeline .timeline-wrapper .timeline-date p {
+	color: #f46464;
+}
+
+#testimonials .testi-slide span a {
+	color: #f46464;
+}
+
+#pricing .table-item h3 {
+	color: #f46464;
+}
+
+#pricing .table-item .price-box sup {
+	color: #f46464;
+}
+
+#faqs .panel-heading .panel-title a .icon-toggle:after {
+	color: #f46464;
+}
+
+#partners .button:hover {
+	background-color: #f46464;
+	border-color: #f46464;
+}
+
+#form-section .button {
+  background: #f46464;
+}
+
+#form-section .button:hover {
+  background: #f57a7a;
+}
+
+#cta-section .title {
+	color: #f46464;
+}
+
+#socials .col-item .socials li i:hover {
+	background-color: #f46464;
+}
+
+#map-location .info-window span {
+	color: #f46464;
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

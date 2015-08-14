@@ -1,7 +1,7 @@
 // Hiding hamburger menu on click
 
 $('.nav a').on('click', function(){
-     $(".navbar-toggle").click() 
+     $(".navbar-toggle").click()
 });
 
 $(function(){
@@ -117,6 +117,11 @@ $(function(){
 		singleItem: true,
 		slideSpeed : 400
 	});
+
+  $("#myCarousel").carousel({
+    interval: 5000,
+    pause: "hover"
+  });
 
 	$('#plan-select').selectpicker();
 

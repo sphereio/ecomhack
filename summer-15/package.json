@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-livereload": "*"
+  }
+}

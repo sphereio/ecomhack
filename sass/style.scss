@@ -13,6 +13,7 @@ $montserrat-font: 'Montserrat', sans-serif;
 $opensans-font: 'Open Sans', sans-serif;
 $merriweather-font: 'Merriweather', sans-serif;
 
+$ecomhack-red:rgb(242, 28, 66);
 
 /* =======  mixins  ========  */
 
@@ -101,6 +102,22 @@ $merriweather-font: 'Merriweather', sans-serif;
      background-clip: padding-box;
 }
 
+// placeholder mixin
+@mixin input-placeholder($fontStyle){
+
+	&::-webkit-input-placeholder{
+    font-style: $fontStyle;	}
+
+	&:-moz-placeholder{
+    font-style: $fontStyle;	}
+
+	&::-moz-placeholder { //for newer versions of Firefox
+    font-style: $fontStyle;
+			}
+  &:-ms-input-placeholder {
+    font-style: $fontStyle	}
+	}
+
 
 .col-xs-15,
 .col-sm-15,
@@ -148,6 +165,15 @@ $merriweather-font: 'Merriweather', sans-serif;
 /******************************************************************************************
 /*  1-General styles */
 /******************************************************************************************/
+
+*:focus {
+    outline: 0;
+}
+
+html{
+	overflow-x: hidden;
+}
+
 body{
 	background-color: #fff;
 	color: $text-color;
@@ -155,6 +181,7 @@ body{
 	background-color: #fff;
 	font-size: 16px;
 	line-height: 28px;
+	overflow-x: hidden !important;
 }
 
 h2{
@@ -178,7 +205,7 @@ p{
 
 .section-title{
 	color: $orange-color;
-	font-family: $merriweather-font;
+	font-family: $montserrat-font;
 	font-size: 18px;
 	font-style: italic;
 }
@@ -224,12 +251,12 @@ a:focus, a:active{outline: none;}
 }
 
 //---- override bootstrap styles ------
-.navbar{transition: all .5s;}
-.nav > li > a:hover, .nav > li > a:focus{background-color: transparent;}
+.navbar{transition: all .5s; background-color: #fff;}
+.nav > li > a:hover, .nav > li > a:focus{/*background-color: transparent;*/}
 .navbar-nav > li > a{padding: 10px 15px;}
 .navbar-nav{padding-top: 15px !important;}
 .navbar-header{padding-bottom: 5px !important; transition: all .5s;}
-.navbar{margin-bottom: 0; padding-top: 15px !important; padding-bottom: 20px !important; transition: all .5s;}
+.navbar{margin-bottom: 0; padding: 20px 0px !important;  transition: all .5s;}
 
 .navbar-toggle{
 	margin-top: 15px;
@@ -347,7 +374,7 @@ header{
 			text-align: center;
 			a{
 				font-family: $montserrat-font;
-				color: transparent_color(#fff, .3);
+				color: #3b475f;
 				position: relative;
 				transition: all .6s;
         text-align: left;
@@ -363,7 +390,7 @@ header{
 				    z-index: 20;
 				}
 				&:hover{
-					color: #fff;
+					color: $ecomhack-red;
 					&:before{
 						height: 3px;
 					}
@@ -375,20 +402,153 @@ header{
 }
 
 
+/** claim */
+.claim{
+	font-family: $montserrat-font;
+	font-size:130%;
+	text-align:center;
+	padding:45px 0px 40px 0px;
+
+}
+/*** gallery slider */
+.carousel-inner div img{
+  width: 100%;
+	margin: 0;
+}
+
+.carousel-inner > .item {
+    -webkit-transition: 1.6s ease-in-out left;
+    -moz-transition: 1.6s ease-in-out left;
+    -o-transition: 1.6s ease-in-out left;
+    transition: 1.6s ease-in-out left;
+		margin: 0;
+}
+
+/** hackevents */
+
+.btn-ecomhack{
+	background-color: $ecomhack-red;
+	color: #fff;
+	margin: 0;
+  border-radius:5px;
+  margin-top: 20px;
+	width:350px;
+	max-width: 350px;
+}
+
+.btn-mailsubscribe{
+	background-color: $ecomhack-red;
+	color: #fff;
+	margin: 0;
+  border-radius:5px;
+	padding: 10px 0px;
+	display: block;
+	max-width: 350px;
+	font-size:18px;
+	padding: 11px 0px;
+}
+
+.email-input{
+	background-color: rgba(255,255,255,0.1);
+	border: 1px solid #fff;
+}
+
+.hackevents{
+	background-color: #fff;
+	width: 100%;
+	padding: 25px;
+}
+
+.hackevents h2, .hackevents h3 {
+	color: #fff;
+}
+
+.hackevents .hackbox{
+	min-height: 200px;
+	height: 300px;
+	max-width: 350px;
+	margin: 20px 40px 20px 0px;
+	padding: 0px 20px;
+}
+
+
+#impressions {
+	width: 100%;
+	background-color:#fff;
+	color: #fff;
+	padding-bottom: 25px;
+
+	&	blockquote {
+	  background: #fff;
+	  border-left: 5px solid rgb(242,28,66);
+		color: #fff;
+	  margin: 15px 0px;
+	  padding: 0em 10px;
+	}
+
+	& blockquote p {
+	  display: inline;
+		color: #3b475f;
+		font-family:$opensans-font;
+		font-size: 18px;
+	}
+
+	& blockquote cite{
+		color: #3b475f;
+	}
+
+	& blockquote cite a {
+		color: #3b475f;
+	}
+
+	& blockquote footer {
+		padding: 0;
+	}
+
+	& h2{
+		color: #3b475f;
+		text-align: center;
+	}
+
+	& hr {
+		background-color: $ecomhack-red;
+		margin: 25px auto;
+		border: none;
+		text-align: center;
+		width: 80px;
+		height: 4px;
+	}
+}
+
 /* ============================== */
 /*		    main section  	      */
 /* ============================== */
 
+.mainBG{
+		width: 100%;
+		height: 90vh;
+		background:url("../img/gallery/lucia_ceremony.jpg");
+		background-size: cover;
+		position: relative;
+		padding: 80px  0 0px 0;
+		color: #fff;
+    font-family: $montserrat-font;
+
+
+		& .claim {
+			color:rgba(255,255,255,0.8);
+		}
+	}
+
 #main-section{
-	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;
-    background-size: cover;
-    color: transparent_color(#fff, .4);
-    font-family: $merriweather-font;
+/*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
+    background-size: auto;
+    color: transparent_color(#fff, .8);
+    font-family: $montserrat-font;
     position: relative;
-    padding: 180px 0 135px 0;
 
     .overlay{
-    	background-color: transparent_color(#192132, .92);
+    	background-color: rgb(35, 16, 43);
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
@@ -408,7 +568,7 @@ header{
     }
 
     .main-intro{
-	    // text-align: center;
+				margin-bottom: 50px;
 
 	    .curved-text{
 		    color: #fff;
@@ -429,24 +589,18 @@ header{
 	    h1{
 	    	color: #fff;
 		    font-family: $montserrat-font;
-		    // font-size: 92px;
-		    // font-weight: 700;
-		    // margin-top: 40px;
-		    // text-transform: uppercase;
-		    // letter-spacing: 7px;
         font-size: 72px;
         font-weight: 400;
         margin-top: 25px;
-        font-size: 50px !important;
+        font-size: 110px;
 	    }
 
       .big-text {
         font-size: 80px;
-        color: #26b6cb;
+        color: rgb(242,28,66);
         font-family: $montserrat-font;
         font-weight: 700;
         font-size: 98px;
-        line-height: 90px;
         margin-top: 5px;
         padding: 10px 0;
         text-transform: uppercase;
@@ -459,10 +613,12 @@ header{
         margin-top: 30px;
         margin-right: 60px;
         display: inline-block;
-        i {
+
+				i {
           padding-right: 10px;
         }
-        .highlight {
+
+				.highlight {
           font-family: $montserrat-font;
           color: #fff;
         }
@@ -480,11 +636,11 @@ header{
 		    @include button(200px, 50px);
 		    font-weight: 700;
 		    @include gradient();
-			margin: 55px auto 0;
-			@include radius(3px);
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			transition: background-color 0.4s ease-out 0s;
+				margin: 55px auto 0;
+				@include radius(3px);
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				transition: background-color 0.4s ease-out 0s;
 
 			&:hover{
 				background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
@@ -501,22 +657,35 @@ header{
 
 #about{
 	padding: 55px 0 95px 0;
-	text-align: center;
+	background: rgb(35,16,43);
+	color: #fff;
+
+	& p {
+		color: #fff;
+	}
+
+	& ul li{
+		color: #fff;
+	}
+
 
 	.row{
 		margin-top: 70px;
 	}
 
 	h2{
+		color: #fff;
 		margin-top: 17px;
 	}
 
   hr{
-    background-color: transparent_color(#000, .1);
+    background-color: rgb(242,28,66);
+		margin: 25px 0;
   }
 
   .main-text{
     max-width: 590px;
+		color: #fff;
   }
 
 	.left-wrapper{
@@ -525,7 +694,7 @@ header{
 
 		.large-text{
 			color: #a8b4c1;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 24px;
 			font-style: italic;
 			padding-right: 30px;
@@ -719,7 +888,7 @@ header{
 
 	.section-title{
 		color: transparent_color(#000, .35);
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-style: italic;
 	}
 
@@ -744,13 +913,13 @@ header{
 			width: 260px;
 			padding: 10px;
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
-background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
+			background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
+			background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
+			background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
 			@include radius(50%);
 			position: relative;
 			overflow: hidden;
@@ -877,7 +1046,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	position: relative;
 
 	.overlay{
-    	background-color: transparent_color(#192132, .92);
+    	background-color: rgb(35, 16, 43);
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
@@ -891,7 +1060,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	}
 
 	hr{
-		background-color: #fff;
+		background-color: $ecomhack-red;
 		text-align: left;
 		margin: 25px 0;
 	}
@@ -962,6 +1131,56 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 			margin-right: 10px !important;
 		}
 	}
+}
+
+/* ============================== */
+/*		  manifesto section 			  	  */
+/* ============================== */
+#manifesto {
+
+		// background-color: rgb(35,16,43);
+		background-color:#fff;
+		padding-bottom: 50px;
+
+	& ol{
+		padding-left: 0;
+		text-align: center;
+	}
+	 & ol li {
+		padding: 15px;
+		color: #3b475f;
+		padding-left:0;
+		font-family: $opensans-font;
+		font-size: 18px;
+	}
+
+	& h2{
+		padding-top: 25px;
+		color: #3b475f;
+		text-align: center;
+	}
+
+	& hr {
+		background-color: $ecomhack-red;
+		margin: 25px auto;
+		border: none;
+		text-align: center;
+		width: 80px;
+		height: 4px;
+	}
+
+
+}
+
+/* ============================== */
+/*		  rules section 			  	  */
+/* ============================== */
+
+ul.rule-list li {
+	color: #3b475f;
+	font-size: 24px;
+	line-height: 1.7em;
+	padding:10px 0px;
 }
 
 
@@ -1071,7 +1290,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		.timeline-info{
 			span{
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-style: italic;
 			}
 			h3{
@@ -1171,7 +1390,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		p{
 		    color: #f0f1f2;
-		    font-family: $merriweather-font;
+		    font-family: $montserrat-font;
 		    font-size: 20px;
 		    font-style: italic;
 		    line-height: 40px;
@@ -1405,24 +1624,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /*		     faqs section         */
 /* ============================== */
 #apis{
-	background: #f4f6f8;
-	padding: 75px 0;
+	background: #fff;
+	padding: 25px 0;
 	text-align: center;
 
 	hr{
-		width: 80%;
-		border: none;
-		height: 1px;
-		margin: 0 auto;
-		text-align: center;
-		background: rgb(240,241,242);
-		background: -moz-linear-gradient(left, rgba(240,241,242,1) 0%, rgba(224,225,226,1) 50%, rgba(240,241,242,1) 100%);
-		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(240,241,242,1)), color-stop(50%,rgba(224,225,226,1)), color-stop(100%,rgba(240,241,242,1)));
-		background: -webkit-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
-		background: -o-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
-		background: -ms-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
-		background: linear-gradient(to right, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );
+		// width: 80%;
+		// border: none;
+		// height: 1px;
+		// margin: 0 auto;
+		// text-align: center;
+		// background: rgb(240,241,242);
+		// background: -moz-linear-gradient(left, rgba(240,241,242,1) 0%, rgba(224,225,226,1) 50%, rgba(240,241,242,1) 100%);
+		// background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(240,241,242,1)), color-stop(50%,rgba(224,225,226,1)), color-stop(100%,rgba(240,241,242,1)));
+		// background: -webkit-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
+		// background: -o-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
+		// background: -ms-linear-gradient(left, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
+		// background: linear-gradient(to right, rgba(240,241,242,1) 0%,rgba(224,225,226,1) 50%,rgba(240,241,242,1) 100%);
+		// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f2', endColorstr='#f0f1f2',GradientType=1 );
+
+		background-color: $ecomhack-red;
+margin: 25px auto;
+border: none;
+text-align: center;
+width: 80px;
+height: 4px;
 	}
 
 	.first-row{
@@ -1544,7 +1770,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 	.title{
 		color: $orange-color;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 24px;
 		font-style: italic;
 		margin-top: 30px;
@@ -1582,7 +1808,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 	input{
 		color: #a8b4c1;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 16px;
 		font-style: italic;
 		height: 50px;
@@ -1616,7 +1842,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 			span{
 				color: #a8b4c1;
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-size: 16px;
 				font-style: italic;
 			}
@@ -1677,7 +1903,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		.link{
 			color: $headline-color;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 14px;
 			font-style: italic;
 			text-decoration: underline;
@@ -1750,7 +1976,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		span{
 			color: $orange-color;
-			font-family: $merriweather-font  !important;
+			font-family: $montserrat-font  !important;
 			font-size: 16px;
 			font-style: italic;
 		}
@@ -1782,12 +2008,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 footer{
 	padding: 25px 0;
 	font-size: 14px;
+	background-color: #fff;
+	color:#fff;
+	font-family:$opensans-font;
 
 	.copyright{
+		color:#3b475f;
 		margin: 0;
 		a{
-			color: $headline-color;
-			font-family: $montserrat-font;
+			color: $ecomhack-red;
+			font-family:$opensans-font;
 		}
 	}
 
@@ -1799,8 +2029,11 @@ footer{
 		}
 
 		a{
-			color: $headline-color;
-			font-family: $montserrat-font;
+			color: #3b475f;
+			font-family:$opensans-font;
+		}
+		a:hover{
+			color:$ecomhack-red;
 		}
 	}
 }
@@ -1918,6 +2151,20 @@ footer{
 
 
 	#partners{
+
+		& .apis-title{
+			color: #23102b !important;
+		}
+
+		hr {
+			background-color: $ecomhack-red;
+			margin: 25px auto;
+			border: none;
+			text-align: center;
+			width: 80px;
+			height: 4px;
+		}
+
 		.first-row, .second-row{
 			width: 100%;
 		}
@@ -2081,4 +2328,464 @@ footer{
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
+}
+/** Mobile styles **/
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar{
+		padding: 5px 0 !important;
+	}
+
+	.mainBG{
+		height: 120vh;
+	}
+	#manifesto{
+		padding: 0px 15px;
+	}
+
+}
+
+/* Portrait */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	#manifesto {
+		font-size: 110%;
+	}
+	.mainBG{
+	height: 100vh;
+}
+
+.main-intro h1{
+	padding-top: 0vh !important;
+}
+
+
+	.oreilly-logo{
+		margin-left: 50px !important;
+	}
+
+.hackbox{
+	margin:10px 0px;
+	width: 100%;
+}
+
+li.dropdown{
+	text-align: inherit;
+}
+
+.cologne{
+
+}
+
+.berlin{
+	margin:10px 0px !important;
+}
+
+.newyork{
+	margin:10px 0px !important;
+}
+
+.btn-ecomhack{
+	margin: 5px 10px 10px 10px;
+	max-width: 275px !important;
+}
+
+#manifesto ol{
+		padding-left: 20px;
+	}
+
+	#impressions	blockquote {
+
+	margin: 15px 20px;
+}
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+	.mainBG{
+		height: 120vh;
+	}
+
+	.hackbox{
+		width: 100% !important;
+		max-width: 100% !important;
+		margin:10px 0px !important;
+	}
+
+	.btn-mailsubscribe{
+	max-width: 100% !important;
+	width: 100%;
+}
+.btn-ecomhack{
+	margin: 5px 10px 10px 10px;
+	max-width: 275px !important;
+}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+	#manifesto {
+			font-size: 110%;
+		}
+
+		.navbar{
+	padding: 5px 0 !important;
+}
+
+
+}
+
+/* Portrait */
+@media only screen   and (min-device-width: 375px)   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	#manifesto {
+			font-size: 110%;
+		}
+
+		.main-intro h1{
+		padding-top: 10vh !important;
+}
+
+		.hackbox{
+			margin:10px 0px,
+		}
+		.btn-ecomhack{
+	margin: 5px 10px 10px 10px;
+	max-width: 330px !important;
+}
+li.dropdown{
+	text-align: inherit;
+}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		#manifesto {
+				font-size: 110%;
+			}
+
+		.btn-mailsubscribe{
+			max-width: 100% !important;
+			width: 100%;
+		}
+
+		.mainBG{
+		height: 120vh;
+	}
+	.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 100% !important;
+	}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+	.navbar{
+	padding: 5px 0 !important;
+
+	#manifesto{
+		padding: 0px 15px;
+	}
+	.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 330px !important;
+	}
+}
+
+
+
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px)   and (max-device-width: 736px)   and (-webkit-min-device-pixel-ratio: 3)  and (orientation: portrait) {
+
+	.hackbox{
+		margin:10px 0px;
+	}
+	.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 100% !important;
+	}
+}
+
+
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+		.mainBG{
+			height: 120vh;
+		}
+}
+
+/* ----------- iP/ad mini ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+		}
+
+		.newyork{
+			margin-left: 0px !important;
+		}
+		.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+	max-width: 350px !important;
+	}
+
+	#manifesto {
+		margin: 0px 10px;
+	}
+
+	#impressions {
+		margin: 0px 10px;
+	}
+	li.dropdown{
+		text-align: inherit;
+	}
+
+}
+
+
+
+
+// ipad mini landscape
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+			width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+		}
+
+		.newyork{
+			margin-left: 0px !important;
+		}
+		.btn-ecomhack{
+			margin: 5px 10px 10px 10px;
+			max-width: 100% !important;
+		}
+		.btn-mailsubscribe{
+			display: block;
+			max-width: 500px;
+			font-size:18px;
+			padding: 10px 0px;
+		}
+
+
+
+}
+
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			max-width: 100%;
+			width: 100% !important;
+		}
+
+		.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 100% !important;
+	}
+	li.dropdown{
+		text-align: inherit;
+	}
+}
+
+
+
+/* ----------- iPad 3 and 4 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+
+		.newyork{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+		.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 100% !important;
+	}
+
+	li.dropdown{
+	text-align: inherit;
+}
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		.berlin{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+
+		.newyork{
+			margin-left:0px !important;
+			min-height: unset;
+		}
+		.btn-ecomhack{
+		margin: 5px 10px 10px 10px;
+		max-width: 100% !important;
+	}
+}
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 920px){
+		.hackbox{
+			margin:10px 0px 10px 0px;
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+		.btn-ecomhack{
+			margin: 5px 10px 10px 10px;
+			max-width: 100% !important;
+		}
+}
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.main-intro h1{
+		padding-top:15vh !important;
+	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+		.hackevents{
+			margin-top:0px !important;
+	}
+
+	.main-intro h1{
+		padding-top: 7vh !important;
+	}
+}
+
+.sticky-navbar .nav li.current a:before{
+	background-color: $ecomhack-red;
+}
+.sticky-navbar .nav>li>a:hover:before{
+	background-color: $ecomhack-red;
+}
+
+.carousel-inner{
+	max-height: 800px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background: none;
+}
+
+#myCarousel{
+	margin-bottom: 25px;
+}
+
+.newsletterSignup{
+	color:#000;
+	border-radius:0;
+	max-width:810px;
+	@include input-placeholder(italic);
+}
+
+.dropdown-backdrop {
+    position: static;
+}
+
+.drp::before{
+	content: "";
+	background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	left: 15px;
+	height: 0;
+	width: 30px;
+	transition: height .5s;
+	z-index: 20;
+}
+
+.drp{
+	background-color: #fff;
+	font-family: "Montserrat";
+	color: #3b475f;
+	position: relative;
+	transition: all .6s;
+	text-align: left;
+	z-index: 1;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 3px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
