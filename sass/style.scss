@@ -106,16 +106,20 @@ $ecomhack-red:rgb(242, 28, 66);
 @mixin input-placeholder($fontStyle){
 
 	&::-webkit-input-placeholder{
-    font-style: $fontStyle;	}
+    font-style: $fontStyle;
+		font-family: $opensans-font;	}
 
 	&:-moz-placeholder{
-    font-style: $fontStyle;	}
+		font-style: $fontStyle;
+			font-family: $opensans-font;	}
 
 	&::-moz-placeholder { //for newer versions of Firefox
-    font-style: $fontStyle;
+		font-style: $fontStyle;
+			font-family: $opensans-font;
 			}
   &:-ms-input-placeholder {
-    font-style: $fontStyle	}
+		font-style: $fontStyle;
+			font-family: $opensans-font;	}
 	}
 
 
@@ -267,7 +271,6 @@ a:focus, a:active{outline: none;}
 }
 
 #header-navigation{
-
 	li{
 		margin-bottom: 5px;
 	}
@@ -404,8 +407,9 @@ header{
 
 /** claim */
 .claim{
+	color: #f21c42;
 	font-family: $montserrat-font;
-	font-size:130%;
+	font-size:145%;
 	text-align:center;
 	padding:45px 0px 40px 0px;
 
@@ -2754,7 +2758,7 @@ li.dropdown{
 	color:#000;
 	border-radius:0;
 	max-width:810px;
-	@include input-placeholder(italic);
+	@include input-placeholder(normal);
 }
 
 .dropdown-backdrop {
