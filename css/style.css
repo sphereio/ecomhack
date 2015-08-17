@@ -1981,13 +1981,17 @@ footer {
   border-radius: 0;
   max-width: 810px; }
   .newsletterSignup::-webkit-input-placeholder {
-    font-style: italic; }
+    font-style: normal;
+    font-family: "Open Sans", sans-serif; }
   .newsletterSignup:-moz-placeholder {
-    font-style: italic; }
+    font-style: normal;
+    font-family: "Open Sans", sans-serif; }
   .newsletterSignup::-moz-placeholder {
-    font-style: italic; }
+    font-style: normal;
+    font-family: "Open Sans", sans-serif; }
   .newsletterSignup:-ms-input-placeholder {
-    font-style: italic; }
+    font-style: normal;
+    font-family: "Open Sans", sans-serif; }
 
 .dropdown-backdrop {
   position: static; }
