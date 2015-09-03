@@ -397,6 +397,9 @@ header {
   margin-top: 20px;
   width: 350px;
   max-width: 350px;
+  &:hover {
+    color: #3b475f;
+  }
 }
 .btn-mailsubscribe {
   background-color: $ecomhack-red;
@@ -408,6 +411,9 @@ header {
   max-width: 350px;
   font-size: 18px;
   padding: 11px 0;
+  &:hover {
+    color: #3b475f;
+  }
 }
 .email-input {
   background-color: rgba(255,255,255,0.1);
