@@ -468,6 +468,33 @@ header {
       margin-top: 20px; }
 
 /* ============================== */
+/*		    partner section  	  */
+/* ============================== */
+.algolia-logo {
+  margin: 10% 0; }
+
+.ct-logo {
+  margin: 20% 0; }
+
+.dwx-logo {
+  max-height: 90px; }
+
+.conrad-logo {
+  margin: 15% 0; }
+
+.ecomcamp-logo {
+  max-height: 130px; }
+
+.networld-logo {
+  margin: 10% 0; }
+
+.motothreesix-logo {
+  margin: 10% 0; }
+
+.oreillytwo-logo {
+  margin: 15% 0; }
+
+/* ============================== */
 /*		    features section  	  */
 /* ============================== */
 #event,
