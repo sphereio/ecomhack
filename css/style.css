@@ -477,13 +477,15 @@ header {
   margin: 20% 0; }
 
 .dwx-logo {
-  max-height: 90px; }
+  max-height: 90px;
+  max-width: 120px; }
 
 .conrad-logo {
   margin: 15% 0; }
 
 .ecomcamp-logo {
-  max-height: 100px; }
+  max-height: 100px;
+  max-width: 120px; }
 
 .networld-logo {
   margin-top: 15%; }
