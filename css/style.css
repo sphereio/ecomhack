@@ -254,6 +254,18 @@ header {
   .btn-ecomhack:hover {
     color: #3b475f; }
 
+.btn-ecomhack-cologne:hover {
+  color: #3b475f;
+  background: #399FBC; }
+
+.btn-ecomhack-berlin:hover {
+  color: #3b475f;
+  background: #36C1C1; }
+
+.btn-ecomhack-newyork:hover {
+  color: #3b475f;
+  background: #82B3AE; }
+
 .btn-mailsubscribe {
   background-color: #f21c42;
   color: #fff;
@@ -265,7 +277,8 @@ header {
   font-size: 18px;
   padding: 11px 0; }
   .btn-mailsubscribe:hover {
-    color: #3b475f; }
+    background: #fff;
+    color: #f21c42; }
 
 .email-input {
   background-color: rgba(255, 255, 255, 0.1);
