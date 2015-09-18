@@ -669,7 +669,11 @@ header {
 }
 .dwx-logo {
 	max-height: 90px;
-	max-width: 120px;
+	max-width: 150px;
+  @media screen and (max-width: 767px) {
+    max-height: none;
+    max-width: none;
+  }
 }
 .conrad-logo {
 	margin: 15% 0;
@@ -677,6 +681,20 @@ header {
 .ecomcamp-logo {
 	max-height: 100px;
 	max-width: 120px;
+  @media screen and (max-width: 767px) {
+    max-height: none;
+    max-width: none;
+  }
+}
+.f6s-logo {
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 20px;
+  @media screen and (max-width: 767px) {
+    max-height: none;
+    max-width: none;
+    margin-left: 0;
+  }
 }
 .networld-logo {
 	margin-top: 15%;
