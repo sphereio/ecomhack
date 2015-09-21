@@ -242,6 +242,9 @@ header {
   transition: 1.6s ease-in-out left;
   margin: 0; }
 
+.quotes-row {
+  padding: 50px 0; }
+
 /** hackevents */
 .btn-ecomhack {
   background-color: #f21c42;
