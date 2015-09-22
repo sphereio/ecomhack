@@ -534,6 +534,22 @@ header {
 .oreillytwo-logo {
   margin: 15% 0; }
 
+.gfu-logo {
+  max-height: 100px;
+  max-width: 100px;
+  margin-top: 20%;
+  margin-left: 20%; }
+  @media screen and (max-width: 767px) {
+    .gfu-logo {
+      max-height: none;
+      max-width: none;
+      margin-top: 0;
+      margin-left: 0; } }
+
+.impact-hub-logo {
+  padding-top: 20px;
+  padding-left: 20px; }
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
