@@ -504,9 +504,10 @@ header {
   max-width: 120px; }
   @media screen and (max-width: 767px) {
     .ecomcamp-logo {
-      max-height: none;
-      max-width: none;
-      margin: 30px 0; } }
+      display: block;
+      margin: 20px auto;
+      max-height: 120px;
+      max-width: 120px; } }
 
 .f6s-logo {
   max-height: 100px;
@@ -514,9 +515,10 @@ header {
   margin-left: 20px; }
   @media screen and (max-width: 767px) {
     .f6s-logo {
-      max-height: none;
-      max-width: none;
-      margin-left: 0; } }
+      display: block;
+      margin: 20px auto;
+      max-height: 120px;
+      max-width: 120px; } }
 
 .networld-logo {
   margin-top: 15%; }
@@ -542,6 +544,13 @@ header {
 .impact-hub-logo {
   padding-top: 20px;
   padding-left: 20px; }
+
+@media screen and (max-width: 767px) {
+  .logo-center-small {
+    display: block;
+    margin: 20px auto;
+    max-height: 100px;
+    max-width: 200px; } }
 
 /* ============================== */
 /*		    features section  	  */
