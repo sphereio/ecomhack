@@ -672,14 +672,6 @@ header {
 .ct-logo {
 	margin: 20% 0;
 }
-.dwx-logo {
-	max-height: 90px;
-	max-width: 150px;
-  @media screen and (max-width: 767px) {
-    max-height: none;
-    max-width: none;
-  }
-}
 .conrad-logo {
 	margin: 15% 0;
 }
@@ -689,6 +681,7 @@ header {
   @media screen and (max-width: 767px) {
     max-height: none;
     max-width: none;
+    margin: 30px 0;
   }
 }
 .f6s-logo {
