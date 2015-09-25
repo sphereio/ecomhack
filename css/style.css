@@ -246,34 +246,38 @@ header {
   padding: 50px 0; }
 
 /** hackevents */
-.btn-ecomhack {
-  background-color: #f21c42;
-  color: #fff;
-  margin: 0;
-  border-radius: 5px;
-  margin-top: 20px;
-  width: 350px;
-  max-width: 350px; }
-  .btn-ecomhack:hover {
-    color: #3b475f; }
+.cologne-box {
+  background: #399fbc;
+  padding: 20px; }
+  @media screen and (max-width: 991px) {
+    .cologne-box {
+      margin-bottom: 45px; } }
 
-.btn-ecomhack-cologne:hover {
-  color: #3b475f;
-  background: #399FBC; }
+.berlin-box {
+  background: #36c1c1;
+  padding: 20px; }
+  @media screen and (max-width: 991px) {
+    .berlin-box {
+      margin-bottom: 45px; } }
 
-.btn-ecomhack-berlin:hover {
-  color: #3b475f;
-  background: #36C1C1; }
+.newyork-box {
+  background: #82b3ae;
+  padding: 20px; }
 
-.btn-ecomhack-newyork:hover {
-  color: #3b475f;
-  background: #82B3AE; }
+.learnmore-cta {
+  text-align: center;
+  color: #f21c42;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.4); }
+  .learnmore-cta:hover {
+    background: white; }
 
 .btn-mailsubscribe {
   background-color: #f21c42;
   color: #fff;
   margin: 0;
-  border-radius: 5px;
+  border: 1px solid #f21c42;
+  border-radius: 0 !important;
   padding: 10px 0;
   display: block;
   max-width: 350px;
@@ -290,18 +294,11 @@ header {
 .hackevents {
   background-color: #fff;
   width: 100%;
-  padding: 25px; }
+  padding: 45px 25px 0; }
 
 .hackevents h2,
 .hackevents h3 {
   color: #fff; }
-
-.hackevents .hackbox {
-  min-height: 200px;
-  height: 300px;
-  max-width: 350px;
-  margin: 20px 40px 20px 0;
-  padding: 0 20px; }
 
 #impressions {
   width: 100%;
@@ -903,8 +900,7 @@ header {
   background-color: #fff;
   padding-bottom: 50px; }
   #manifesto ol {
-    padding-left: 0;
-    text-align: center; }
+    padding-left: 0; }
   #manifesto ol li {
     padding: 15px;
     color: #3b475f;
@@ -1849,18 +1845,8 @@ footer {
   .oreilly-logo {
     margin-left: 50px !important; }
 
-  .hackbox {
-    margin: 10px 0;
-    width: 100%; }
-
   li.dropdown {
     text-align: inherit; }
-
-  .berlin {
-    margin: 10px 0 !important; }
-
-  .newyork {
-    margin: 10px 0 !important; }
 
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -1875,11 +1861,6 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .mainBG {
     height: 120vh; }
-
-  .hackbox {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 10px 0 !important; }
 
   .btn-mailsubscribe {
     max-width: 100% !important;
@@ -1903,9 +1884,6 @@ footer {
 
   .main-intro h1 {
     padding-top: 10vh !important; }
-
-  .hackbox {
-    margin: 10px 0; }
 
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -1940,9 +1918,6 @@ footer {
       max-width: 330px !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  .hackbox {
-    margin: 10px 0; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; } }
@@ -1953,16 +1928,6 @@ footer {
 /* ----------- iP/ad mini ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%; }
-
-  .berlin {
-    margin-left: 0 !important; }
-
-  .newyork {
-    margin-left: 0 !important; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 350px !important; }
@@ -1976,17 +1941,6 @@ footer {
   li.dropdown {
     text-align: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%;
-    width: 100% !important; }
-
-  .berlin {
-    margin-left: 0 !important; }
-
-  .newyork {
-    margin-left: 0 !important; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; }
@@ -1999,11 +1953,6 @@ footer {
 /* ----------- iPad 1 and 2 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%;
-    width: 100% !important; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; }
@@ -2013,19 +1962,6 @@ footer {
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important; }
-
-  .berlin {
-    margin-left: 0 !important;
-    min-height: unset; }
-
-  .newyork {
-    margin-left: 0 !important;
-    min-height: unset; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; }
@@ -2033,28 +1969,10 @@ footer {
   li.dropdown {
     text-align: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important; }
-
-  .berlin {
-    margin-left: 0 !important;
-    min-height: unset; }
-
-  .newyork {
-    margin-left: 0 !important;
-    min-height: unset; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 920px) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; } }
@@ -2088,6 +2006,7 @@ footer {
 .newsletterSignup {
   color: #000;
   border-radius: 0;
+  border: none;
   max-width: 810px; }
   .newsletterSignup::-webkit-input-placeholder {
     font-style: normal;

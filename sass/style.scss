@@ -394,41 +394,39 @@ header {
 }
 
 /** hackevents */
-.btn-ecomhack {
-  background-color: $ecomhack-red;
-  color: #fff;
-  margin: 0;
-  border-radius: 5px;
-  margin-top: 20px;
-  width: 350px;
-  max-width: 350px;
-  &:hover {
-    color: #3b475f;
+.cologne-box {
+  background: rgb(57,159,188);
+  padding: 20px;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 45px;
   }
 }
-.btn-ecomhack-cologne {
-  &:hover {
-    color: #3b475f;
-    background: #399FBC;
+.berlin-box {
+  background: rgb(54,193,193);
+  padding: 20px;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 45px;
   }
 }
-.btn-ecomhack-berlin {
-  &:hover {
-    color: #3b475f;
-    background: #36C1C1;
-  }
+.newyork-box {
+  background: rgb(130, 179, 174);
+  padding: 20px;
 }
-.btn-ecomhack-newyork {
+.learnmore-cta {
+  text-align: center;
+  color: $ecomhack-red;
+  margin-top: 30px;
+  background: rgba(255,255,255,0.4);
   &:hover {
-    color: #3b475f;
-    background: #82B3AE;
+    background: rgba(255,255,255,1);
   }
 }
 .btn-mailsubscribe {
   background-color: $ecomhack-red;
   color: #fff;
   margin: 0;
-  border-radius: 5px;
+  border: 1px solid $ecomhack-red;
+  border-radius: 0!important; // Overwrite bootstrap
   padding: 10px 0;
   display: block;
   max-width: 350px;
@@ -446,18 +444,11 @@ header {
 .hackevents {
   background-color: #fff;
   width: 100%;
-  padding: 25px;
+  padding: 45px 25px 0;
 }
 .hackevents h2,
 .hackevents h3 {
   color: #fff;
-}
-.hackevents .hackbox {
-  min-height: 200px;
-  height: 300px;
-  max-width: 350px;
-  margin: 20px 40px 20px 0;
-  padding: 0 20px;
 }
 #impressions {
   width: 100%;
@@ -1088,7 +1079,6 @@ header {
   padding-bottom: 50px;
   & ol {
     padding-left: 0;
-    text-align: center;
   }
   & ol li {
     padding: 15px;
@@ -2168,21 +2158,11 @@ footer {
   .oreilly-logo {
     margin-left: 50px !important;
   }
-  .hackbox {
-    margin: 10px 0;
-    width: 100%;
-  }
   li.dropdown {
     text-align: inherit;
   }
   .cologne {
 
-  }
-  .berlin {
-    margin: 10px 0 !important;
-  }
-  .newyork {
-    margin: 10px 0 !important;
   }
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -2200,11 +2180,6 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .mainBG {
     height: 120vh;
-  }
-  .hackbox {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 10px 0 !important;
   }
   .btn-mailsubscribe {
     max-width: 100% !important;
@@ -2234,9 +2209,6 @@ footer {
   }
   .main-intro h1 {
     padding-top: 10vh !important;
-  }
-  .hackbox {
-    margin: 10px 0;
   }
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -2282,9 +2254,6 @@ footer {
 
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  .hackbox {
-    margin: 10px 0;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
@@ -2301,16 +2270,6 @@ footer {
 /* ----------- iP/ad mini ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%;
-  }
-  .berlin {
-    margin-left: 0 !important;
-  }
-  .newyork {
-    margin-left: 0 !important;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 350px !important;
@@ -2328,17 +2287,6 @@ footer {
 
 // ipad mini landscape
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%;
-    width: 100% !important;
-  }
-  .berlin {
-    margin-left: 0 !important;
-  }
-  .newyork {
-    margin-left: 0 !important;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
@@ -2354,11 +2302,6 @@ footer {
 /* ----------- iPad 1 and 2 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  .hackbox {
-    margin: 10px 0;
-    max-width: 100%;
-    width: 100% !important;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
@@ -2371,19 +2314,6 @@ footer {
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  .berlin {
-    margin-left: 0 !important;
-    min-height: unset;
-  }
-  .newyork {
-    margin-left: 0 !important;
-    min-height: unset;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
@@ -2393,30 +2323,12 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  .berlin {
-    margin-left: 0 !important;
-    min-height: unset;
-  }
-  .newyork {
-    margin-left: 0 !important;
-    min-height: unset;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 920px) {
-  .hackbox {
-    margin: 10px 0;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
@@ -2458,6 +2370,7 @@ footer {
 .newsletterSignup {
   color: #000;
   border-radius: 0;
+  border: none;
   max-width: 810px;
   @include input-placeholder(normal);
 }
