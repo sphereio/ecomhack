@@ -430,12 +430,15 @@ header {
   border-radius: 0!important; // Overwrite bootstrap
   padding: 10px 0;
   display: block;
-  max-width: 350px;
+  width: 100%;
   font-size: 18px;
   padding: 11px 0;
   &:hover {
     background: #fff;
     color: $ecomhack-red;
+  }
+  @media screen and (max-width: 991px) {
+    margin-top: 20px;
   }
 }
 .email-input {
@@ -2372,7 +2375,7 @@ footer {
   color: #000;
   border-radius: 0;
   border: none;
-  max-width: 810px;
+  width: 100%;
   @include input-placeholder(normal);
 }
 .dropdown-backdrop {

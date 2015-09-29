@@ -281,12 +281,15 @@ header {
   border-radius: 0 !important;
   padding: 10px 0;
   display: block;
-  max-width: 350px;
+  width: 100%;
   font-size: 18px;
   padding: 11px 0; }
   .btn-mailsubscribe:hover {
     background: #fff;
     color: #f21c42; }
+  @media screen and (max-width: 991px) {
+    .btn-mailsubscribe {
+      margin-top: 20px; } }
 
 .email-input {
   background-color: rgba(255, 255, 255, 0.1);
@@ -2008,7 +2011,7 @@ footer {
   color: #000;
   border-radius: 0;
   border: none;
-  max-width: 810px; }
+  width: 100%; }
   .newsletterSignup::-webkit-input-placeholder {
     font-style: normal;
     font-family: "Open Sans", sans-serif; }
