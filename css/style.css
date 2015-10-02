@@ -349,6 +349,20 @@ header {
   padding: 80px 0 0;
   color: #fff;
   font-family: "Montserrat", sans-serif; }
+  @media screen and (max-width: 767px) {
+    .mainBG {
+      height: 100vh; } }
+  .mainBG .main-title {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: 15%;
+    font-size: 110px;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      .mainBG .main-title {
+        font-size: 50px; } }
 
 #main-section {
   /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
@@ -388,13 +402,6 @@ header {
       font-style: italic;
       margin-top: 50px;
       display: inline-block; }
-    #main-section .main-intro h1 {
-      color: #fff;
-      font-family: "Montserrat", sans-serif;
-      font-size: 72px;
-      font-weight: 400;
-      margin-top: 25px;
-      font-size: 110px; }
     #main-section .main-intro .big-text {
       font-size: 80px;
       color: #f21c42;
@@ -1610,9 +1617,6 @@ footer {
 /* ============================== */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  h1 {
-    font-size: 75px !important; }
-
   h2 {
     font-size: 30px !important; }
 
@@ -1636,9 +1640,6 @@ footer {
     font-size: 18px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 996px) {
-  h1 {
-    font-size: 70px !important; }
-
   h2 {
     font-size: 28px !important; }
 
@@ -1703,9 +1704,6 @@ footer {
     border: none; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  #header-navigation {
-    background-color: rgba(0, 0, 0, 0.2); }
-
   footer {
     text-align: center; }
     footer ul.pull-right {
@@ -1808,9 +1806,6 @@ footer {
   #main-section .main-intro .medium-text {
     font-size: 24px; }
 
-  h1 {
-    font-size: 60px !important; }
-
   h2 {
     font-size: 20px !important; }
 
@@ -1819,9 +1814,6 @@ footer {
 
   #map-location {
     height: 480px; } }
-@media only screen and (max-width: 430px) {
-  h1 {
-    font-size: 50px !important; } }
 /* Custom, iPhone Retina */
 /** Mobile styles **/
 /* ----------- iPhone 5 and 5S ----------- */
@@ -1830,21 +1822,12 @@ footer {
   .navbar {
     padding: 5px 0 !important; }
 
-  .mainBG {
-    height: 120vh; }
-
   #manifesto {
     padding: 0 15px; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #manifesto {
     font-size: 110%; }
-
-  .mainBG {
-    height: 100vh; }
-
-  .main-intro h1 {
-    padding-top: 0 !important; }
 
   .oreilly-logo {
     margin-left: 50px !important; }
@@ -1863,9 +1846,6 @@ footer {
     margin: 15px 20px; } }
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .mainBG {
-    height: 120vh; }
-
   .btn-mailsubscribe {
     max-width: 100% !important;
     width: 100%; }
@@ -1886,9 +1866,6 @@ footer {
   #manifesto {
     font-size: 110%; }
 
-  .main-intro h1 {
-    padding-top: 10vh !important; }
-
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 330px !important; }
@@ -1903,9 +1880,6 @@ footer {
   .btn-mailsubscribe {
     max-width: 100% !important;
     width: 100%; }
-
-  .mainBG {
-    height: 120vh; }
 
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -1925,10 +1899,6 @@ footer {
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; } }
-/* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .mainBG {
-    height: 120vh; } }
 /* ----------- iP/ad mini ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -1980,17 +1950,10 @@ footer {
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important; } }
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .main-intro h1 {
-    padding-top: 15vh !important; } }
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .hackevents {
-    margin-top: 0 !important; }
-
-  .main-intro h1 {
-    padding-top: 7vh !important; } }
+    margin-top: 0 !important; } }
 .sticky-navbar .nav li.current a:before {
   background-color: #f21c42; }
 

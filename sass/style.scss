@@ -507,6 +507,21 @@ header {
   padding: 80px 0 0;
   color: #fff;
   font-family: $montserrat-font;
+  @media screen and (max-width: 767px) {
+    height: 100vh;
+  }
+  .main-title {
+    color: #fff;
+    font-family: $montserrat-font;
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: 15%;
+    font-size: 110px;
+    text-align: center;
+    @media screen and (max-width: 767px) {
+      font-size: 50px;
+    }
+  }
 }
 #main-section {
   /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
@@ -546,14 +561,6 @@ header {
       font-style: italic;
       margin-top: 50px;
       display: inline-block;
-    }
-    h1 {
-      color: #fff;
-      font-family: $montserrat-font;
-      font-size: 72px;
-      font-weight: 400;
-      margin-top: 25px;
-      font-size: 110px;
     }
     .big-text {
       font-size: 80px;
@@ -1870,9 +1877,6 @@ footer {
 /* ============================== */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-  h1 {
-    font-size: 75px !important;
-  }
   h2 {
     font-size: 30px !important;
   }
@@ -1904,9 +1908,6 @@ footer {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 996px) {
-  h1 {
-    font-size: 70px !important;
-  }
   h2 {
     font-size: 28px !important;
   }
@@ -1987,9 +1988,6 @@ footer {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  #header-navigation {
-    background-color: transparent_color(#000, .2);
-  }
   footer {
     text-align: center;
     ul.pull-right {
@@ -2110,9 +2108,6 @@ footer {
   #main-section .main-intro .medium-text {
     font-size: 24px;
   }
-  h1 {
-    font-size: 60px !important;
-  }
   h2 {
     font-size: 20px !important;
   }
@@ -2121,11 +2116,6 @@ footer {
   }
   #map-location {
     height: 480px;
-  }
-}
-@media only screen and (max-width : 430px) {
-  h1 {
-    font-size: 50px !important;
   }
 }
 
@@ -2140,9 +2130,6 @@ footer {
   .navbar {
     padding: 5px 0 !important;
   }
-  .mainBG {
-    height: 120vh;
-  }
   #manifesto {
     padding: 0 15px;
   }
@@ -2152,12 +2139,6 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #manifesto {
     font-size: 110%;
-  }
-  .mainBG {
-    height: 100vh;
-  }
-  .main-intro h1 {
-    padding-top: 0 !important;
   }
   .oreilly-logo {
     margin-left: 50px !important;
@@ -2182,9 +2163,6 @@ footer {
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .mainBG {
-    height: 120vh;
-  }
   .btn-mailsubscribe {
     max-width: 100% !important;
     width: 100%;
@@ -2211,9 +2189,6 @@ footer {
   #manifesto {
     font-size: 110%;
   }
-  .main-intro h1 {
-    padding-top: 10vh !important;
-  }
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 330px !important;
@@ -2231,9 +2206,6 @@ footer {
   .btn-mailsubscribe {
     max-width: 100% !important;
     width: 100%;
-  }
-  .mainBG {
-    height: 120vh;
   }
   .btn-ecomhack {
     margin: 5px 10px 10px;
@@ -2261,13 +2233,6 @@ footer {
   .btn-ecomhack {
     margin: 5px 10px 10px;
     max-width: 100% !important;
-  }
-}
-
-/* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .mainBG {
-    height: 120vh;
   }
 }
 
@@ -2339,20 +2304,10 @@ footer {
   }
 }
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .main-intro h1 {
-    padding-top: 15vh !important;
-  }
-}
-
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .hackevents {
     margin-top: 0 !important;
-  }
-  .main-intro h1 {
-    padding-top: 7vh !important;
   }
 }
 .sticky-navbar .nav li.current a:before {
