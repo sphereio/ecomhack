@@ -362,7 +362,8 @@ header {
     text-align: center; }
     @media screen and (max-width: 767px) {
       .mainBG .main-title {
-        font-size: 50px; } }
+        font-size: 50px;
+        margin-top: 5%; } }
 
 #main-section {
   /*	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;*/
