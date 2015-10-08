@@ -558,6 +558,12 @@ header {
     max-height: 100px;
     max-width: 200px; } }
 
+.rocket-logo {
+  margin: 15% 0; }
+  @media screen and (max-width: 767px) {
+    .rocket-logo {
+      margin: 20px auto; } }
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */

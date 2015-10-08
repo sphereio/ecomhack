@@ -729,6 +729,12 @@ header {
     max-width: 200px;
   }
 }
+.rocket-logo {
+  margin: 15% 0;
+  @media screen and (max-width: 767px) {
+    margin: 20px auto;
+  }
+}
 
 /* ============================== */
 /*		    features section  	  */
