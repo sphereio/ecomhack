@@ -459,42 +459,16 @@ header {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 55px 0 95px;
-  background: #23102b;
-  color: #fff; }
-  #about p {
-    color: #fff; }
-  #about ul li {
-    color: #fff; }
-  #about .row {
-    margin-top: 70px; }
+  padding-top: 50px;
+  font-family: "Open Sans", sans-serif; }
   #about h2 {
-    color: #fff;
-    margin-top: 17px; }
+    text-align: center; }
   #about hr {
-    background-color: #f21c42;
-    margin: 25px 0; }
-  #about .main-text {
-    max-width: 590px;
-    color: #fff; }
-  #about .left-wrapper {
-    padding-top: 85px; }
-    #about .left-wrapper .large-text {
-      color: #a8b4c1;
-      font-family: "Montserrat", sans-serif;
-      font-size: 24px;
-      font-style: italic;
-      padding-right: 30px;
-      line-height: 36px; }
-  #about .right-wrapper {
-    padding-left: 50px; }
-    #about .right-wrapper h3 {
-      margin-top: 10px; }
-    #about .right-wrapper .medium-text {
-      color: #818c98;
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 20px; }
+    background-color: #f21c42; }
+  #about p {
+    color: #3b475f;
+    font-size: 18px;
+    line-height: 40px; }
 
 /* ============================== */
 /*		    partner section  	  */
@@ -920,9 +894,8 @@ header {
   #manifesto ol {
     padding-left: 0; }
   #manifesto ol li {
-    padding: 15px;
+    padding: 5px 0;
     color: #3b475f;
-    padding-left: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 18px; }
   #manifesto h2 {

@@ -616,52 +616,18 @@ header {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 55px 0 95px;
-  background: rgb(35,16,43);
-  color: #fff;
-  & p {
-    color: #fff;
-  }
-  & ul li {
-    color: #fff;
-  }
-  .row {
-    margin-top: 70px;
-  }
+  padding-top: 50px;
+  font-family: "Open Sans", sans-serif;
   h2 {
-    color: #fff;
-    margin-top: 17px;
+    text-align: center;
   }
   hr {
-    background-color: rgb(242,28,66);
-    margin: 25px 0;
+    background-color: $ecomhack-red;
   }
-  .main-text {
-    max-width: 590px;
-    color: #fff;
-  }
-  .left-wrapper {
-    padding-top: 85px;
-    .large-text {
-      color: #a8b4c1;
-      font-family: $montserrat-font;
-      font-size: 24px;
-      font-style: italic;
-      padding-right: 30px;
-      line-height: 36px;
-    }
-  }
-  .right-wrapper {
-    padding-left: 50px;
-    h3 {
-      margin-top: 10px;
-    }
-    .medium-text {
-      color: $text-color;
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 20px;
-    }
+  p {
+    color: #3b475f;
+    font-size: 18px;
+    line-height: 40px;
   }
 }
 
@@ -1099,9 +1065,8 @@ header {
     padding-left: 0;
   }
   & ol li {
-    padding: 15px;
+    padding: 5px 0;
     color: #3b475f;
-    padding-left: 0;
     font-family: $opensans-font;
     font-size: 18px;
   }
